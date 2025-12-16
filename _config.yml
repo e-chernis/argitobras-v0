@@ -17,10 +17,10 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://www.argitobras.com.ar" # Importante usar https si lo vas a aplicar con Enforce HTTPS en GitHub Pages
 baseurl: "" # Se deja vacío ("") porque el dominio apuntará a la raíz del sitio (argitobras.com)
 
-title      : ARG IT OBRAS | Proyectos y Desarrollos
-email      : contacto@argitobras.com # Usar un email de contacto profesional
-description: "Portafolio de referencia personal centrado en proyectos, desarrollos y consultoría de IT en Argentina. Expertos en soluciones open-source y escalables."
-author     : Emmanuel M. Ch. # Reemplaza con tu nombre
+title      : Emmanuel M. Chernis | AWS Certified DevOps Engineer
+email      : emmanuel.chernis@example.com # Replace with your actual email
+description: "Portfolio of Emmanuel M. Chernis, AWS Certified DevOps Engineer at redbee Studios. Expertise in DevOps, cloud infrastructure, CI/CD, and automation."
+author     : Emmanuel M. Chernis
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px

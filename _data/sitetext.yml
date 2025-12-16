@@ -11,25 +11,28 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Welcome to Emmanuel M. Chernis' Portfolio
+    text: AWS Certified DevOps Engineer
+    button: Learn More
+    buttonlink: "#about"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Skills & Expertise"
+    text: "Specialized in DevOps, cloud infrastructure, CI/CD, and automation."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "AWS Cloud"
+        desc: "Expertise in AWS services including EKS, S3, Lambda, API Gateway, IAM, CloudWatch, and more. Infrastructure as Code with Terraform and Terragrunt."
+        icon: fas fa-cloud
+      - title: "CI/CD & Automation"
+        desc: "Proficient in Jenkins, GitLab CI, Ansible, Bash, Python, Groovy, Go. Trunk-based development and GitOps with ArgoCD."
+        icon: fas fa-cogs
+      - title: "Databases & Monitoring"
+        desc: "Experience with PostgreSQL, MySQL, Redis, Elasticsearch. Monitoring with Prometheus, Grafana, Zabbix, ELK Stack."
+        icon: fas fa-database
+      - title: "DevOps Practices"
+        desc: "Agile methodologies, Scrum, SRE principles, security best practices, and collaborative team leadership."
+        icon: fas fa-users
 
   portfolio:
     title: "Portfolio"
@@ -38,40 +41,38 @@ en: &DEFAULT_EN
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Professional Experience"
+    text: "My career journey in DevOps and IT."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "DevOps Engineer at redbee Studios"
+        year: "2021 - Present"
+        desc: "Leading DevOps implementations in AWS Cloud, managing IaC with Terraform, CI/CD pipelines, EKS orchestration, and monitoring solutions."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: redbee Studios
+      - title: "DevOps at Balanz Capital"
+        year: "2019 - 2021"
+        desc: "Automated delivery processes, managed Kubernetes clusters, implemented ELK for logging, and optimized infrastructure for high availability."
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: Balanz Capital
+      - title: "IT Analyst / DevOps Jr at Mercado Libre"
+        year: "2017 - 2019"
+        desc: "Provided IT support, automated processes with scripting, migrated to GCP, and contributed to agile development practices."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: Mercado Libre
+      - title: "IT Systems Analyst at gA Argentina"
+        year: "2015 - 2017"
+        desc: "Developed automation scripts, managed databases, and handled system monitoring and troubleshooting."
         image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+        alt: gA Argentina
+    end: "Continuous <br> Learning <br> Journey!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Me"
+    text: "Passionate DevOps Engineer"
+    body: "I am a professional DevOps Engineer certified in AWS, with a focus on implementing best practices to improve system efficiency, stability, and scalability. I have experience in Linux and Windows system administration, transactional and non-transactional databases, security implementation, network management, monitoring, and alerting. I also possess decision-making skills aligned with SRE responsibilities. I specialize in CI/CD implementation and automation. I demonstrate the ability to lead technical implementations and provide guidance on projects, effectively communicating challenges and solutions. I excel in teamwork, collaborating with colleagues from different disciplines to achieve common goals and feedback. I am committed to maintaining high professionalism and dedication to team and organization success. Committed to delivering fast and reliable high-quality software, applying agile and DevOps principles throughout the software development lifecycle. My goal is to continue advancing in DevOps, contributing significantly to projects."
     section: about
 
   clients:
@@ -93,45 +94,29 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Recommendations"
+    text: "What colleagues say about me."
+    subtext: Testimonials from my professional network.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Federico Ignacio Ibarra Berardi"
+        role: "Backend Software Developer"
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo, es una persona con mucho conocimiento, pragmático y con muy buena onda. Siempre esta dispuesto para dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
+      - name: "Santiago Sola"
+        role: "BI Specialist"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y compromiso, siempre estaba dispuesto a ayudar y a resolver las necesidades del área, y hemos investigado juntos para crear planes de mejora en el sector."
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
+    text: "Let's connect for opportunities or collaborations."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -170,25 +155,28 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+    title: Bienvenido al Portafolio de Emmanuel M. Chernis
+    text: Ingeniero DevOps Certificado en AWS
+    button: Saber Más
+    buttonlink: "#about"
 
   services:
-    title: "Servicios"
-    text: "Lorem ipsum"
+    title: "Habilidades y Expertise"
+    text: "Especializado en DevOps, infraestructura cloud, CI/CD y automatización."
     section: servicios
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "AWS Cloud"
+        desc: "Experiencia en servicios AWS incluyendo EKS, S3, Lambda, API Gateway, IAM, CloudWatch y más. Infraestructura como Código con Terraform y Terragrunt."
+        icon: fas fa-cloud
+      - title: "CI/CD y Automatización"
+        desc: "Proficiente en Jenkins, GitLab CI, Ansible, Bash, Python, Groovy, Go. Desarrollo basado en trunk y GitOps con ArgoCD."
+        icon: fas fa-cogs
+      - title: "Bases de Datos y Monitoreo"
+        desc: "Experiencia con PostgreSQL, MySQL, Redis, Elasticsearch. Monitoreo con Prometheus, Grafana, Zabbix, ELK Stack."
+        icon: fas fa-database
+      - title: "Prácticas DevOps"
+        desc: "Metodologías ágiles, Scrum, principios SRE, mejores prácticas de seguridad y liderazgo colaborativo en equipos."
+        icon: fas fa-users
 
   portfolio:
     title: "Portafolio"
@@ -252,41 +240,25 @@ es: &DEFAULT_ES
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Recomendaciones"
+    text: "Lo que dicen mis colegas sobre mí."
+    subtext: Testimonios de mi red profesional.
     section: equipo
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Federico Ignacio Ibarra Berardi"
+        role: "Backend Software Developer"
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo, es una persona con mucho conocimiento, pragmático y con muy buena onda. Siempre esta dispuesto para dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
+      - name: "Santiago Sola"
+        role: "BI Specialist"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y compromiso, siempre estaba dispuesto a ayudar y a resolver las necesidades del área, y hemos investigado juntos para crear planes de mejora en el sector."
 
   contact:
     title: "Contáctenos"
