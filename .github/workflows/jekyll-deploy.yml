@@ -36,6 +36,10 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer a user PAT stored in `secrets.DEPLOY_TOKEN` if present.
+          # Create a Personal Access Token (repo scope) and add it as repository secret
+          # named `DEPLOY_TOKEN` if the runner lacks push permission with GITHUB_TOKEN.
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
+          allow_empty_commit: true
