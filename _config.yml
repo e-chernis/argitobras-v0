@@ -14,7 +14,7 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://www.argitobras.com" # Importante usar https si lo vas a aplicar con Enforce HTTPS en GitHub Pages
+url    : "https://www.argitobras.com.ar" # Importante usar https si lo vas a aplicar con Enforce HTTPS en GitHub Pages
 baseurl: "" # Se deja vacío ("") porque el dominio apuntará a la raíz del sitio (argitobras.com)
 
 title      : ARG IT OBRAS | Proyectos y Desarrollos
