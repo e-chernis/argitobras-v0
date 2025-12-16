@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to Emmanuel M. Chernis' Portfolio
-    text: AWS Certified DevOps Engineer
+    title: Emmanuel M. Chernis
+    text: AWS Certified DevOps Engineer — redbee Studios
     button: Learn More
     buttonlink: "#about"
 
@@ -33,6 +33,15 @@ en: &DEFAULT_EN
       - title: "DevOps Practices"
         desc: "Agile methodologies, Scrum, SRE principles, security best practices, and collaborative team leadership."
         icon: fas fa-users
+  profile:
+    photo: /assets/img/team/1.jpg
+    social:
+      - url: https://www.linkedin.com/in/echernis/
+        icon: fab fa-linkedin-in
+      - url: https://github.com/e-chernis
+        icon: fab fa-github
+      - url: https://twitter.com
+        icon: fab fa-twitter
 
   portfolio:
     title: "Portfolio"
