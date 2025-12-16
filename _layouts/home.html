@@ -7,17 +7,35 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/agency.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.data.sitetext[site.locale].profile.photo | default: '/assets/img/team/1.jpg' }}">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
-    <header class="masthead text-white text-center" style="padding:5rem 0; background:#222;">
-        <div class="container">
-            <h1 class="mb-1">{{ site.data.sitetext[site.locale].header.title }}</h1>
-            <p class="mb-4">{{ site.data.sitetext[site.locale].header.text }}</p>
-            <a class="btn btn-primary btn-xl" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{
-                site.data.sitetext[site.locale].header.button }}</a>
-        </div>
-    </header>
+        <header class="masthead text-white text-center" style="padding:5rem 0;">
+                <div class="container">
+                        <div class="profile-hero">
+                                <img class="profile-photo" src="{{ site.data.sitetext[site.locale].profile.photo | default: '/assets/img/team/1.jpg' }}" alt="Profile photo">
+                                <div>
+                                    <h1 class="hero-title mb-1">{{ site.data.sitetext[site.locale].header.title }}</h1>
+                                    <p class="hero-sub mb-2">{{ site.data.sitetext[site.locale].header.text }}</p>
+                                    <div class="social-list">
+                                        {% for s in site.data.sitetext[site.locale].profile.social %}
+                                            <a href="{{ s.url }}" target="_blank" rel="noopener"> <i class="{{ s.icon }}"></i></a>
+                                        {% endfor %}
+                                    </div>
+                                    <div class="cv-btn">
+                                        <a class="btn btn-light" href="{{ site.baseurl }}/assets/Emmanuel_Chernis_CV.pdf">Download CV</a>
+                                        <a class="btn btn-primary" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+        </header>
 
     <section id="about" class="py-5">
         <div class="container">
