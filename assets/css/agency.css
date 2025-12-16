@@ -11,7 +11,7 @@ a {
   color: #fed136;
 }
 a:hover {
-  color: #fec503;
+  color: rgb(253.7475247525, 197.3861386139, 3.2524752475);
 }
 
 .text-primary {
@@ -83,8 +83,8 @@ img::-moz-selection {
   border-color: #fed136;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: rgb(253.8106435644, 200.2896039604, 15.9393564356) !important;
+  border-color: rgb(253.8106435644, 200.2896039604, 15.9393564356) !important;
   color: white;
 }
 .btn-primary:active, .btn-primary:focus {
@@ -109,7 +109,7 @@ img::-moz-selection {
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: rgb(253.7475247525, 197.3861386139, 3.2524752475);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
