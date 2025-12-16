@@ -14,13 +14,13 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+url    : "https://www.argitobras.com" # Importante usar https si lo vas a aplicar con Enforce HTTPS en GitHub Pages
+baseurl: "" # Se deja vacío ("") porque el dominio apuntará a la raíz del sitio (argitobras.com)
 
-title      : Agency Jekyll Theme Demo
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Your Name
+title      : ARG IT OBRAS | Proyectos y Desarrollos
+email      : contacto@argitobras.com # Usar un email de contacto profesional
+description: "Portafolio de referencia personal centrado en proyectos, desarrollos y consultoría de IT en Argentina. Expertos en soluciones open-source y escalables."
+author     : Emmanuel M. Ch. # Reemplaza con tu nombre
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
@@ -41,3 +41,12 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
