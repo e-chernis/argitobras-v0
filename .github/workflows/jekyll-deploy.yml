@@ -37,7 +37,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # Use DEPLOY_TOKEN if provided, otherwise fall back to the automatic GITHUB token.
-          github_token: ${{ secrets.DEPLOY_TOKEN != '' && secrets.DEPLOY_TOKEN || github.token }}
+          github_token: ${{ secrets.DEPLOY_TOKEN || github.token }}
           publish_dir: ./_site
           publish_branch: gh-pages
           allow_empty_commit: true
