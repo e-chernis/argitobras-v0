@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/agency.css' | relative_url }}">
+</head>
+
+<body>
+    <header class="masthead text-white text-center" style="padding:5rem 0; background:#222;">
+        <div class="container">
+            <h1 class="mb-1">{{ site.data.sitetext[site.locale].header.title }}</h1>
+            <p class="mb-4">{{ site.data.sitetext[site.locale].header.text }}</p>
+            <a class="btn btn-primary btn-xl" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{
+                site.data.sitetext[site.locale].header.button }}</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>{{ site.data.sitetext[site.locale].about.title }}</h2>
+            <p>{{ site.data.sitetext[site.locale].about.body }}</p>
+        </div>
+    </section>
+
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2>{{ site.data.sitetext[site.locale].services.title }}</h2>
+            <p>{{ site.data.sitetext[site.locale].services.text }}</p>
+            <div class="row">
+                {% for item in site.data.sitetext[site.locale].services.list %}
+                <div class="col-md-6 mb-4">
+                    <h4>{{ item.title }}</h4>
+                    <p>{{ item.desc }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="py-5">
+        <div class="container">
+            <h2>{{ site.data.sitetext[site.locale].timeline.title }}</h2>
+            <div class="timeline">
+                {% for ev in site.data.sitetext[site.locale].timeline.events %}
+                <div class="mb-4">
+                    <h5>{{ ev.title }} <small class="text-muted">{{ ev.year }}</small></h5>
+                    <p>{{ ev.desc }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2>{{ site.data.sitetext[site.locale].team.title }}</h2>
+            <div class="row">
+                {% for p in site.data.sitetext[site.locale].team.people %}
+                <div class="col-md-6 mb-4">
+                    <strong>{{ p.name }}</strong>
+                    <p class="mb-1"><em>{{ p.role }}</em></p>
+                    <p>{{ p.bio }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>{{ site.data.sitetext[site.locale].contact.title }}</h2>
+            <p>{{ site.data.sitetext[site.locale].contact.text }}</p>
+            <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</small>
+        </div>
+    </footer>
+
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+</body>
+
+</html>
