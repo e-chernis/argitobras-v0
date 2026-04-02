@@ -1,18 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Automatización en Mercadolibre
+subtitle: Soporte IT y scripting.
 image: assets/img/portfolio/06-full.jpg
-alt: 
+alt: Automatización
 
 caption:
-  title: Window
-  subtitle: Photography
+  title: IT Support Automation
+  subtitle: Soporte IT
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+En Mercadolibre, automatizé procesos de soporte técnico con scripting en Python y PowerShell, gestioné redes y dispositivos, y optimicé inventarios con herramientas como Snipe-IT.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Window
-- Category: Photography
-
+- Fecha: Septiembre 2017 - Enero 2019
+- Cliente: Mercadolibre
+- Categoría: Soporte IT

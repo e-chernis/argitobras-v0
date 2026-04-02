@@ -1,18 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: 3D Secure
+subtitle: Seguridad y autenticación de pagos.
 image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+alt: 3D Secure
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
+  title: 3D Secure
+  subtitle: Seguridad de Pagos
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Desarrollé protocolos 3D Secure para autenticación de transacciones en línea. Integré servicios de verificación de identidad con APIs externas, utilizando Terraform para IaC y Prometheus para monitoreo de rendimiento.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
-
+- Fecha: Julio 2021 - Presente
+- Cliente: Redbee Studios
+- Categoría: Seguridad IT

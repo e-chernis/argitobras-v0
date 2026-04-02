@@ -1,18 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Todopago
+subtitle: Billetera virtual.
 image: assets/img/portfolio/03-full.jpg
-alt: 
+alt: Todopago
 
 caption:
-  title: Finish
-  subtitle: Identity
+  title: Todopago
+  subtitle: Billetera Virtual
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Trabajé en la plataforma Todopago, una billetera virtual para pagos electrónicos. Gestioné despliegues en EKS, configuré pipelines CI/CD con ArgoCD y optimicé bases de datos RDS para alta disponibilidad.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
-
+- Fecha: Julio 2021 - Presente
+- Cliente: Redbee Studios
+- Categoría: Fintech

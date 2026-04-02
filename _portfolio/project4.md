@@ -1,18 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: BIMO
+subtitle: Billetera virtual.
 image: assets/img/portfolio/04-full.jpg
-alt: 
+alt: BIMO
 
 caption:
-  title: Lines
-  subtitle: Branding
+  title: BIMO
+  subtitle: Billetera Virtual
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Desarrollé la billetera virtual BIMO, enfocándome en seguridad y escalabilidad. Implementé monitoreo con Grafana, logging con OpenSearch y gestión de identidades con Keycloak.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Lines
-- Category: Branding
-
+- Fecha: Julio 2021 - Presente
+- Cliente: Redbee Studios
+- Categoría: Fintech

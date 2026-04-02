@@ -1,18 +1,17 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Migración a la Nube en Balanz
+subtitle: Implementación de CI/CD y monitoreo.
 image: assets/img/portfolio/05-full.jpg
-alt: 
+alt: Migración Nube
 
 caption:
-  title: Southwest
-  subtitle: Website Design
+  title: Cloud Migration
+  subtitle: DevOps
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+En Balanz, lideré la migración de infraestructuras a la nube, implementando pipelines CI/CD con Jenkins y Ansible, y monitoreo con Zabbix y Prometheus para asegurar alta disponibilidad.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Southwest
-- Category: Website Design
-
+- Fecha: Agosto 2019 - Julio 2021
+- Cliente: Balanz Capital Valores
+- Categoría: DevOps

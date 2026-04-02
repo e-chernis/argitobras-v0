@@ -1,18 +1,17 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: CVV Dinámico
+subtitle: Seguridad y autenticación de pagos.
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+alt: CVV Dinámico
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: CVV Dinámico
+  subtitle: Seguridad de Pagos
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios. Utilicé AWS Lambda, API Gateway y Keycloak para gestionar identidades y accesos seguros, asegurando cumplimiento con estándares de seguridad financiera.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
-
+- Fecha: Julio 2021 - Presente
+- Cliente: Redbee Studios
+- Categoría: Seguridad IT
