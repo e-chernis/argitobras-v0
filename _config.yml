@@ -12,7 +12,7 @@
 # in the templates via {{ site.myvariable }}.
 
 #theme: jekyll-agency
-remote_theme: e-chernis/agency-jekyll-theme
+remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://e-chernis.github.io" # Para GitHub Pages
 baseurl: "/argitobras-v0" # Para el repositorio argitobras-v0
