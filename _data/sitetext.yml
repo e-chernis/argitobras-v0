@@ -201,22 +201,22 @@ es: &DEFAULT_ES
       - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
         year: "Julio 2021 - Presente"
         desc: "Lidero implementaciones DevOps en AWS Cloud, gestionando IaC con Terraform, pipelines CI/CD, orquestación EKS y soluciones de monitoreo. Proyectos: CVV Dinámico, 3D Secure, Todopago, BIMO."
-        image: assets/img/timeline/1.jpg
+        image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
         alt: Redbee Studios
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
         desc: "Automatización de procesos de entrega, gestión de clústeres Kubernetes, implementación ELK para logs, optimización de infraestructura para alta disponibilidad."
-        image: assets/img/timeline/2.jpg
+        image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
         desc: "Soporte IT, automatización con scripting, migración a GCP, contribución a prácticas ágiles."
-        image: assets/img/timeline/3.jpg
+        image: https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
         alt: MercadoLibre
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
         desc: "Desarrollo de scripts de automatización, gestión de bases de datos, monitoreo y troubleshooting de sistemas."
-        image: assets/img/timeline/4.jpg
+        image: https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
         alt: Grupo Assa
     end: "¡Viaje Continuo <br> de Aprendizaje!"
 
