@@ -15,7 +15,7 @@
 remote_theme: e-chernis/agency-jekyll-theme
 
 url    : "https://www.argitobras.com.ar" # Para tu dominio custom
-baseurl: "/argitobras-v0" # Para el repositorio argitobras-v0
+baseurl: "" # Sitio en la raíz del dominio
 
 title      : Emmanuel Martín Chernis | Ingeniero DevOps Certificado en AWS
 email      : Emmanuel_Chernis@hotmail.com # Replace with your actual email
