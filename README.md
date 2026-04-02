@@ -1,10 +1,17 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/e-chernis/agency-jekyll-theme/blob/master/LICENSE.txt)
+# ARG IT OBRAS Website
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/argitobras/argitobras-v0/blob/main/LICENSE)
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/e-chernis/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+Official website for ARG IT OBRAS, built with Jekyll and the Agency theme.
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://argitobras.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies: `bundle install`
+3. Run the site locally: `bundle exec jekyll serve`
+4. Open `http://localhost:4000` in your browser
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages. Push changes to the `main` branch to trigger a new deployment.
+
+For custom domain setup, make sure to update the `url` in `_config.yml` and configure your DNS settings accordingly.
