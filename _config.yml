@@ -25,7 +25,7 @@ author     : Emmanuel Martín Chernis
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "es" # See available languages in _data/ui-text.yml
+locale: "es-ES" # See available languages in _data/ui-text.yml
 
 analytics:
   google: #Google Analytics tracking code here
