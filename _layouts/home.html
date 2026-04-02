@@ -12,7 +12,7 @@
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image"
-        content="{{ site.url }}{{ site.baseurl }}{{ site.data.sitetext[site.locale].profile.photo | default: '/assets/img/team/1.jpg' }}">
+        content="{{ site.url }}{{ site.data.ui-text[site.locale].profile.photo | default: 'assets/img/team/1.jpg' | relative_url }}">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -21,18 +21,18 @@
         <div class="container">
             <div class="profile-hero">
                 <img class="profile-photo"
-                    src="{{ site.data.sitetext[site.locale].profile.photo | default: '/assets/img/team/1.jpg' }}"
+                    src="{{ site.data.ui-text[site.locale].profile.photo | default: 'assets/img/team/1.jpg' | relative_url }}"
                     alt="Profile photo">
                 <div>
-                    <h1 class="hero-title mb-1">{{ site.data.sitetext[site.locale].header.title }}</h1>
-                    <p class="hero-sub mb-2">{{ site.data.sitetext[site.locale].header.text }}</p>
+                    <h1 class="hero-title mb-1">{{ site.data.ui-text[site.locale].header.title }}</h1>
+                    <p class="hero-sub mb-2">{{ site.data.ui-text[site.locale].header.text }}</p>
                     <div class="social-list">
-                        {% for s in site.data.sitetext[site.locale].profile.social %}
+                        {% for s in site.data.ui-text[site.locale].profile.social %}
                         <a href="{{ s.url }}" target="_blank" rel="noopener"> <i class="{{ s.icon }}"></i></a>
                         {% endfor %}
                     </div>
                     <div class="cv-btn">
-                        <a class="btn btn-primary" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+                        <a class="btn btn-primary" href="{{ site.data.ui-text[site.locale].header.buttonlink }}">{{ site.data.ui-text[site.locale].header.button }}</a>
                     </div>
                 </div>
             </div>
@@ -41,17 +41,17 @@
 
     <section id="about" class="py-5">
         <div class="container">
-            <h2>{{ site.data.sitetext[site.locale].about.title }}</h2>
-            <p>{{ site.data.sitetext[site.locale].about.body }}</p>
+            <h2>{{ site.data.ui-text[site.locale].about.title }}</h2>
+            <p>{{ site.data.ui-text[site.locale].about.body }}</p>
         </div>
     </section>
 
     <section id="services" class="bg-light py-5">
         <div class="container">
-            <h2>{{ site.data.sitetext[site.locale].services.title }}</h2>
-            <p>{{ site.data.sitetext[site.locale].services.text }}</p>
+            <h2>{{ site.data.ui-text[site.locale].services.title }}</h2>
+            <p>{{ site.data.ui-text[site.locale].services.text }}</p>
             <div class="row">
-                {% for item in site.data.sitetext[site.locale].services.list %}
+                {% for item in site.data.ui-text[site.locale].services.list %}
                 <div class="col-md-6 mb-4">
                     <h4>{{ item.title }}</h4>
                     <p>{{ item.desc }}</p>
@@ -63,9 +63,9 @@
 
     <section id="timeline" class="py-5">
         <div class="container">
-            <h2>{{ site.data.sitetext[site.locale].timeline.title }}</h2>
+            <h2>{{ site.data.ui-text[site.locale].timeline.title }}</h2>
             <div class="timeline">
-                {% for ev in site.data.sitetext[site.locale].timeline.events %}
+                {% for ev in site.data.ui-text[site.locale].timeline.events %}
                 <div class="mb-4">
                     <h5>{{ ev.title }} <small class="text-muted">{{ ev.year }}</small></h5>
                     <p>{{ ev.desc }}</p>
@@ -77,9 +77,9 @@
 
     <section id="testimonials" class="bg-light py-5">
         <div class="container">
-            <h2>{{ site.data.sitetext[site.locale].team.title }}</h2>
+            <h2>{{ site.data.ui-text[site.locale].team.title }}</h2>
             <div class="row">
-                {% for p in site.data.sitetext[site.locale].team.people %}
+                {% for p in site.data.ui-text[site.locale].team.people %}
                 <div class="col-md-6 mb-4">
                     <strong>{{ p.name }}</strong>
                     <p class="mb-1"><em>{{ p.role }}</em></p>
@@ -92,8 +92,8 @@
 
     <section id="contact" class="py-5">
         <div class="container">
-            <h2>{{ site.data.sitetext[site.locale].contact.title }}</h2>
-            <p>{{ site.data.sitetext[site.locale].contact.text }}</p>
+            <h2>{{ site.data.ui-text[site.locale].contact.title }}</h2>
+            <p>{{ site.data.ui-text[site.locale].contact.text }}</p>
             <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         </div>
     </section>

@@ -164,120 +164,111 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: Bienvenido al Portafolio de Emmanuel M. Chernis
-    text: Ingeniero DevOps Certificado en AWS
+    title: ¡Bienvenido a mi Portafolio!
+    text: Emmanuel Martín Chernis - Especialista en DevOps
     button: Saber Más
     buttonlink: "#about"
 
   services:
-    title: "Habilidades y Expertise"
-    text: "Especializado en DevOps, infraestructura cloud, CI/CD y automatización."
+    title: "Mis Servicios"
+    text: "Soluciones especializadas en DevOps, automatización y seguridad en la nube."
     section: servicios
     list:
-      - title: "AWS Cloud"
-        desc: "Experiencia en servicios AWS incluyendo EKS, S3, Lambda, API Gateway, IAM, CloudWatch y más. Infraestructura como Código con Terraform y Terragrunt."
+      - title: "Infraestructura como Código (IaC)"
+        desc: "Implementación de IaC con Terraform y Terragrunt en AWS para escalabilidad y eficiencia."
         icon: fas fa-cloud
       - title: "CI/CD y Automatización"
-        desc: "Proficiente en Jenkins, GitLab CI, Ansible, Bash, Python, Groovy, Go. Desarrollo basado en trunk y GitOps con ArgoCD."
+        desc: "Desarrollo de pipelines CI/CD con Jenkins, GitLab CI, Ansible, Bash y Python. GitOps con ArgoCD."
         icon: fas fa-cogs
-      - title: "Bases de Datos y Monitoreo"
-        desc: "Experiencia con PostgreSQL, MySQL, Redis, Elasticsearch. Monitoreo con Prometheus, Grafana, Zabbix, ELK Stack."
-        icon: fas fa-database
-      - title: "Prácticas DevOps"
-        desc: "Metodologías ágiles, Scrum, principios SRE, mejores prácticas de seguridad y liderazgo colaborativo en equipos."
-        icon: fas fa-users
+      - title: "Monitoreo y Observabilidad"
+        desc: "Configuración de monitoreo con Prometheus, Grafana, Zabbix, ELK Stack para logs y métricas."
+        icon: fas fa-chart-line
+      - title: "Seguridad y Mejores Prácticas"
+        desc: "Aplicación de principios SRE, seguridad en la nube, metodologías ágiles y liderazgo colaborativo."
+        icon: fas fa-shield-alt
 
   portfolio:
     title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Proyectos destacados en los que he trabajado."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
   timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
+    title: "Mi Trayectoria Profesional"
+    text: "Experiencia laboral en DevOps e IT."
     section: cronologia
-    # left is the default
-    #start_align: "left"
     events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
+        year: "Julio 2021 - Presente"
+        desc: "Lidero implementaciones DevOps en AWS Cloud, gestionando IaC con Terraform, pipelines CI/CD, orquestación EKS y soluciones de monitoreo. Proyectos: CVV Dinámico, 3D Secure, Todopago, BIMO."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: Redbee Studios
+      - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
+        year: "Agosto 2019 - Julio 2021"
+        desc: "Automatización de procesos de entrega, gestión de clústeres Kubernetes, implementación ELK para logs, optimización de infraestructura para alta disponibilidad."
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        alt: Balanz Capital
+      - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
+        year: "Septiembre 2017 - Enero 2019"
+        desc: "Soporte IT, automatización con scripting, migración a GCP, contribución a prácticas ágiles."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        alt: MercadoLibre
+      - title: "Analista de Sistemas IT en Grupo Assa"
+        year: "Julio 2015 - Junio 2017"
+        desc: "Desarrollo de scripts de automatización, gestión de bases de datos, monitoreo y troubleshooting de sistemas."
         image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+        alt: Grupo Assa
+    end: "¡Viaje Continuo <br> de Aprendizaje!"
 
   about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Sobre Mí"
+    text: "DevOps Certificado"
+    body: "DevOps certificado con amplia experiencia en automatización, escalabilidad y seguridad de sistemas en la nube. Apasionado por aplicar mejores prácticas y optimizar el ciclo de vida del software mediante soluciones ágiles y robustas. Especialista en AWS, CI/CD, monitoreo y liderazgo técnico."
     section: nosotros
 
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: ""
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Redbee Studios"
+        url: https://www.redbeestudios.com
         logo: assets/img/clients/creative-market.jpg
+      - title: "Balanz Capital"
+        url: https://www.balanz.com
+        logo: assets/img/clients/designmodo.jpg
+      - title: "MercadoLibre"
+        url: https://www.mercadolibre.com
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Grupo Assa"
+        url: https://www.grupoassa.com
+        logo: assets/img/clients/envato.jpg
 
   team:
-    title: "Recomendaciones"
-    text: "Lo que dicen mis colegas sobre mí."
-    subtext: Testimonios de mi red profesional.
+    title: "Sobre Mí"
+    text: "Emmanuel Martín Chernis"
+    subtext: Información personal y profesional.
     section: equipo
     people:
-      - name: "Federico Ignacio Ibarra Berardi"
-        role: "Backend Software Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Emmanuel Martín Chernis"
+        role: "Ingeniero DevOps Certificado en AWS"
+        image: assets/img/team/1.jpg
         social:
-          - url: https://linkedin.com
+          - url: https://ar.linkedin.com/in/echernis
             icon: fab fa-linkedin-in
-        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo, es una persona con mucho conocimiento, pragmático y con muy buena onda. Siempre esta dispuesto para dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
-      - name: "Santiago Sola"
-        role: "BI Specialist"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y compromiso, siempre estaba dispuesto a ayudar y a resolver las necesidades del área, y hemos investigado juntos para crear planes de mejora en el sector."
+          - url: https://github.com/e-chernis
+            icon: fab fa-github
+        bio: "DevOps certificado con experiencia en AWS, automatización, CI/CD y monitoreo. Trabajo actualmente en Redbee Studios, con proyectos en seguridad de pagos y billeteras virtuales. Apasionado por la tecnología y el aprendizaje continuo."
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contáctame"
+    text: "Conectemos para oportunidades o colaboraciones. Email: Emmanuel_Chernis@hotmail.com | Tel: +54 9 11 6418-8542 | LinkedIn: ar.linkedin.com/in/echernis"
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
     email: "Correo Electrónico*"
     email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
+    phone: "Número Telefónico"
     phone-validation: "Por favor ingrese su número telefónico."
     message: "Mensaje*"
     message-validation: "Por favor escriba un mensaje."
@@ -287,17 +278,7 @@ es: &DEFAULT_ES
   footer:
     legal: "Política de Privacidad"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://ar.linkedin.com/in/echernis
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/e-chernis
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
