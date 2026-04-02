@@ -34,7 +34,7 @@ en: &DEFAULT_EN
         desc: "Agile methodologies, Scrum, SRE principles, security best practices, and collaborative team leadership."
         icon: fas fa-users
   profile:
-    photo: assets/img/team/1.gif
+    photo: assets/img/team/2.gif
     social:
       - url: https://www.linkedin.com/in/echernis/
         icon: fab fa-linkedin-in
@@ -252,7 +252,7 @@ es: &DEFAULT_ES
     people:
       - name: "Emmanuel Martín Chernis"
         role: "Ingeniero DevOps Certificado en AWS"
-        image: assets/img/team/1.gif
+        image: assets/img/team/2.gif
         social:
           - url: https://ar.linkedin.com/in/echernis
             icon: fab fa-linkedin-in
