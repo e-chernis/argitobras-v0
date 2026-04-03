@@ -160,21 +160,21 @@ es: &DEFAULT_ES
     buttonlink: "#nosotros"
 
   services:
-    title: "Mis Servicios"
-    text: "Soluciones especializadas en DevOps, automatización y seguridad en la nube."
+    title: "Habilidades y especialidades"
+    text: "Perfil DevOps orientado a confiabilidad, automatización, seguridad y escalabilidad en entornos críticos."
     section: servicios
     list:
       - title: "Infraestructura como Código (IaC)"
-        desc: "Implementación de IaC con Terraform y Terragrunt en AWS para escalabilidad y eficiencia."
+        desc: "Diseño e implementación de IaC con Terraform y Terragrunt en AWS, con foco en consistencia, trazabilidad y eficiencia operativa."
         icon: fas fa-cloud
       - title: "CI/CD y Automatización"
-        desc: "Desarrollo de pipelines CI/CD con Jenkins, GitLab CI, Ansible, Bash y Python. GitOps con ArgoCD."
+        desc: "Construcción y mantenimiento de pipelines con Jenkins, GitLab CI y Ansible; trunk-based development y despliegues GitOps con ArgoCD."
         icon: fas fa-cogs
       - title: "Monitoreo y Observabilidad"
-        desc: "Configuración de monitoreo con Prometheus, Grafana, Zabbix, ELK Stack para logs y métricas."
+        desc: "Observabilidad end-to-end con Prometheus, Grafana, CloudWatch, Zabbix, ELK/OpenSearch y FluentBit para métricas, logs y alertas proactivas."
         icon: fas fa-chart-line
       - title: "Seguridad y Mejores Prácticas"
-        desc: "Aplicación de principios SRE, seguridad en la nube, metodologías ágiles y liderazgo colaborativo."
+        desc: "Gestión de IAM, mTLS, Keycloak y buenas prácticas SRE/DevOps, trabajando bajo Scrum con documentación técnica en Jira y Confluence."
         icon: fas fa-shield-alt
 
   portfolio:
@@ -190,27 +190,27 @@ es: &DEFAULT_ES
     events:
       - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
         year: "Julio 2021 - Presente"
-        desc: "Lidero iniciativas de automatización y mejora continua sobre AWS Cloud. Diseño y mantengo infraestructura como código, repositorios de microservicios, pipelines de CI/CD, monitoreo y controles de seguridad para sostener plataformas escalables y de alta disponibilidad."
+        desc: "Como DevOps Engineer lidero implementaciones en AWS Cloud para mejorar eficiencia, estabilidad y escalabilidad. Implementé IaC con Terraform/Terragrunt, pipelines CI/CD con Jenkins y GitLab CI, GitOps con ArgoCD y despliegues sobre EKS con Helm. También trabajé en API Gateway con dominios personalizados y mTLS, integración de Keycloak, monitoreo con Prometheus/Grafana/CloudWatch/Zabbix y gestión de logs con OpenSearch, FluentBit y ELK."
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         alt: Redbee Studios
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
-        desc: "Automatizamos la entrega continua de servicios y desarrollos, simplificando el trabajo de los equipos técnicos y de negocio. También administré infraestructura Linux, cubriendo provisión, configuración, mantenimiento y monitoreo de servicios críticos."
+        desc: "Impulsé automatización y entrega continua para equipos técnicos y administrativos. Desarrollé pipelines con Jenkins/Ansible/Bitbucket, administré Kubernetes y Docker Swarm, y fortalecí observabilidad con Zabbix, Grafana y Prometheus. Además gestioné ELK/Filebeat, automatización con Bash y Ansible, y operación de bases MySQL, PostgreSQL, MariaDB, Redis y MongoDB."
         image: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
-        desc: "Brindé soporte técnico interno de Nivel 1 en tres oficinas de la Zona Sur de CABA. Además, participé en automatizaciones y mejoras operativas que acompañaron la migración a GCP y el trabajo diario de los equipos."
+        desc: "Brindé soporte técnico interno N1 en tres oficinas de CABA y mejoré la operación diaria con automatizaciones en Python, Bash y PowerShell. Trabajé sobre Windows, macOS y Linux; redes corporativas (VLAN, routing/switching, access points), Active Directory y cumplimiento de dispositivos. Participé en iniciativas de GCP e integración con APIs de Google, además de documentación técnica y gestión de procesos en entornos ágiles."
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         alt: MercadoLibre
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
-        desc: "Comencé administrando bases de datos MS-SQL Server 2008 y 2012, asegurando continuidad operativa y consultas eficientes. Más tarde me integré a un equipo de desarrollo, donde profundicé en automatización para entornos UNIX y Windows Server."
+        desc: "Inicié administrando MS-SQL Server 2008/2012 y evolucioné hacia automatización en UNIX y Windows Server. Realicé scripting en T-SQL, PowerShell, Shell y Batch, troubleshooting de procesos y flujos FTP/SFTP/SSH, y operación con herramientas como TIDAL y MAESTRO. También participé en documentación y reingeniería de procesos críticos, con interacción técnica en inglés con equipos internacionales."
         image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
         alt: Grupo Assa
       - title: "Desarrollador Java en Cidicom"
         year: "Febrero 2015 - Julio 2015"
-        desc: "Desarrollé un sistema de gestión de empleados para una empresa de remolcadores. La solución ayudaba a controlar accesos, asignar turnos y administrar información clave sobre barcos y tripulaciones."
+        desc: "Lideré el desarrollo de una aplicación de escritorio en Java SE para gestión de empleados en una empresa de remolcadores, cubriendo control de accesos, asignación de turnos y administración operativa. Implementé base transaccional en MySQL, autenticación segura, reportes PDF/Excel e integración con TANGO, optimizando rendimiento y operación del sistema."
         image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
         alt: Cidicom
     end: ""
@@ -220,7 +220,7 @@ es: &DEFAULT_ES
   about:
     title: "Sobre Mí"
     text: "Ingeniero DevOps certificado en AWS"
-    body: "Soy Ingeniero DevOps con experiencia en AWS, automatización, CI/CD, observabilidad y seguridad de plataformas críticas. Me enfoco en diseñar soluciones escalables y mantenibles que mejoren la estabilidad, reduzcan tiempos de entrega y acompañen la evolución de los equipos de desarrollo y negocio."
+    body: "Soy un profesional DevOps enfocado en implementar mejores prácticas para mejorar la eficiencia, estabilidad y escalabilidad de sistemas. Tengo experiencia en administración Linux y Windows, bases de datos transaccionales y no transaccionales, seguridad, redes, monitoreo y alertamiento, con enfoque de confiabilidad tipo SRE. Me especializo en CI/CD y automatización, y en liderar técnicamente implementaciones con comunicación clara entre áreas técnicas y de negocio. Trabajo de forma colaborativa con equipos multidisciplinarios bajo metodologías ágiles, manteniendo un alto estándar de profesionalismo y compromiso con entregas rápidas, confiables y de alta calidad."
     section: nosotros
 
   clients:
@@ -293,7 +293,9 @@ es: &DEFAULT_ES
       - name: "Javier Ulrich"
         role: "PRISMA MEDIOS DE PAGO — Cliente 3D Secure / CVV2 Dinámico (IT Leader)"
         image: assets/img/clients/prisma-card.png
-        social: []
+        social:
+          - url: https://www.linkedin.com/in/javier-ulrich/
+            icon: fab fa-linkedin-in
         bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
       - name: "Gabriel Palacios"
         role: "PRISMA MEDIOS DE PAGO — Cliente TodoPago / BIMO (IT Leader)"
@@ -380,7 +382,7 @@ es: &DEFAULT_ES
         alt: Instituto Tecnológico Beltrán
       - title: "AWS DevOps Engineer Professional (DOP-C02)"
         year: "2023-2023"
-        desc: "AWS Training and Certification — Credly: https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile — Verificación: aws.amazon.com/verification X8V2P0310BE411GY."
+        desc: "AWS Training and Certification — [Ver credencial en Credly](https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile). ID de la credencial: **X8V2P0310BE411GY**."
         image: assets/img/education/aws-devops-pro.png
         alt: AWS DevOps Engineer Professional
       - title: "Diplomatura en Seguridad de la información"
