@@ -115,7 +115,7 @@
       </div>
     </section>
 
-    <section class="page-section" id="{{ t.education.section }}">
+    <section class="bg-light page-section" id="{{ t.education.section }}">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -124,18 +124,27 @@
           </div>
         </div>
         <div class="row">
-          {% for event in t.education.events %}
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img class="card-img-top" src="{{ event.image }}" alt="{{ event.alt }}">
-              <div class="card-body">
-                <h5 class="card-title">{{ event.title }}</h5>
-                <p class="text-muted mb-2"><strong>{{ event.year }}</strong></p>
-                <p class="card-text mb-0">{{ event.desc }}</p>
-              </div>
-            </div>
+          <div class="col-lg-12">
+            <ul class="timeline">
+              {% for event in t.education.events %}
+              {% assign is_inverted = forloop.index0 | modulo: 2 %}
+              <li{% if is_inverted == 1 %} class="timeline-inverted"{% endif %}>
+                <div class="timeline-image">
+                  <img class="timeline-image__img rounded-circle img-fluid" src="{{ event.image | relative_url }}" alt="{{ event.alt }}" loading="lazy" decoding="async">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <p class="timeline-year">{{ event.year }}</p>
+                    <h3 class="timeline-title">{{ event.title }}</h3>
+                  </div>
+                  <div class="timeline-body">
+                    <div class="text-muted timeline-copy">{{ event.desc | markdownify }}</div>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
-          {% endfor %}
         </div>
       </div>
     </section>
@@ -150,7 +159,7 @@
 
         <div class="row mb-3">
           {% for client in t.clients.list %}
-          {% unless client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" or client.title == "CVV" or client.title == "Visa" %}
+          {% unless client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
@@ -162,7 +171,7 @@
 
         <div class="row">
           {% for client in t.clients.list %}
-          {% if client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" or client.title == "Visa" %}
+          {% if client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">

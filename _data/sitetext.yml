@@ -191,27 +191,27 @@ es: &DEFAULT_ES
       - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
         year: "Julio 2021 - Presente"
         desc: "Lidero iniciativas de automatización y mejora continua sobre AWS Cloud. Diseño y mantengo infraestructura como código, repositorios de microservicios, pipelines de CI/CD, monitoreo y controles de seguridad para sostener plataformas escalables y de alta disponibilidad."
-        image: assets/img/clients/redbee.jpg
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         alt: Redbee Studios
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
         desc: "Automatizamos la entrega continua de servicios y desarrollos, simplificando el trabajo de los equipos técnicos y de negocio. También administré infraestructura Linux, cubriendo provisión, configuración, mantenimiento y monitoreo de servicios críticos."
-        image: assets/img/clients/balanz-timeline.png
+        image: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
         desc: "Brindé soporte técnico interno de Nivel 1 en tres oficinas de la Zona Sur de CABA. Además, participé en automatizaciones y mejoras operativas que acompañaron la migración a GCP y el trabajo diario de los equipos."
-        image: assets/img/clients/mercadolibre.webp
+        image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         alt: MercadoLibre
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
         desc: "Comencé administrando bases de datos MS-SQL Server 2008 y 2012, asegurando continuidad operativa y consultas eficientes. Más tarde me integré a un equipo de desarrollo, donde profundicé en automatización para entornos UNIX y Windows Server."
-        image: assets/img/clients/grupoassa-timeline.png
+        image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
         alt: Grupo Assa
       - title: "Desarrollador Java en Cidicom"
         year: "Febrero 2015 - Julio 2015"
         desc: "Desarrollé un sistema de gestión de empleados para una empresa de remolcadores. La solución ayudaba a controlar accesos, asignar turnos y administrar información clave sobre barcos y tripulaciones."
-        image: assets/img/clients/cidicom-card.png
+        image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
         alt: Cidicom
     end: "¡Viaje Continuo <br> de Aprendizaje!"
     end_image: assets/img/portfolio/viaje_continuo.png
@@ -230,34 +230,28 @@ es: &DEFAULT_ES
     list:
       - title: "Cidicom"
         url: https://cidi.com.ar/
-        logo: assets/img/clients/cidicom-card.png
+        logo: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
       - title: "Grupo Assa"
         url: https://www.grupoassa.com/
-        logo: assets/img/clients/grupoassa-card.png
+        logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
       - title: "MercadoLibre"
         url: https://mercadolibre.com.ar/
-        logo: assets/img/clients/mercadolibre-card.png
+        logo: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
       - title: "Balanz"
         url: https://balanz.com/
-        logo: assets/img/clients/balanz-card.png
+        logo: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
       - title: "Redbee"
         url: https://redbee.io/
-        logo: assets/img/clients/redbee-card.png
+        logo: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
       - title: "Prisma"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/prisma-card.png
       - title: "TodoPago"
-        url: https://www.visa.com.ar/
+        url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/todopago-card.png
       - title: "BIMO"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/bimo-card.png
-      - title: "Visa"
-        url: https://www.visa.com.ar/
-        logo: assets/img/clients/3dsecure-card.png
-      - title: "CVV"
-        url: https://www.prismamediosdepago.com/
-        logo: assets/img/clients/3dsecure-card.png
 
   team:
     title: "Testimonios y recomendaciones"
