@@ -17,6 +17,9 @@ Implementé soluciones de seguridad para autenticación de pagos dinámicos en R
 - La generación del CVV2 es automática y se asocia a factores de identidad del cliente (celular, documento y clave personal).
 - Este enfoque mejora protección sin exigir pasos innecesarios en cada operación.
 
+## Casos de Éxito
+- **Documentación oficial**: [CVV2 Dinámico en Prisma Medios de Pago](https://www.prismamediosdepago.com/soluciones/procesamiento-emisor) — Solución implementada y documentada en producción.
+
 ## Tecnologías Usadas
 - **AWS Lambda**: Para funciones serverless que generan CVV dinámicos.
 - **API Gateway**: Exposición segura de APIs para integración con gateways de pago.

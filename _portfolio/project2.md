@@ -14,6 +14,10 @@ Implementé y operé integraciones de **3D Secure** para fortalecer la seguridad
 ## Hito destacado
 - Integración con Banco Galicia (publicación): [Ver hito 3D Secure](https://lnkd.in/dVJE83Cw)
 
+## Casos de Éxito
+- **Documentación técnica**: [3D Secure en Prisma Medios de Pago](https://www.prismamediosdepago.com/soluciones/procesamiento-emisor)
+- **Publicación LinkedIn**: [Integración 3D Secure con Banco Galicia](https://lnkd.in/dVJE83Cw)
+
 ## Valor aportado
 - Capa adicional de protección en la autorización de compras online.
 - Flujo **frictionless** basado en score de riesgo para reducir fricción cuando el riesgo es bajo.
