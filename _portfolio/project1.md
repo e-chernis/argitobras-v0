@@ -5,7 +5,7 @@ image: assets/img/clients/prisma-card.png
 alt: CVV
 success_links:
   - title: "Documentación oficial"
-    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor"
+    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor#:~:text=Tokenizaci%C3%B3n-,CVV2%20Din%C3%A1mico,-Aviso%20de%20compra"
 
 caption:
   title: CVV

@@ -5,7 +5,7 @@ image: assets/img/clients/prisma-card.png
 alt: 3D Secure
 success_links:
   - title: "Documentación técnica"
-    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor"
+    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor#:~:text=avanzadas%20del%20mercado-,3D%20Secure,-Tokenizaci%C3%B3n"
   - title: "LinkedIn: Banco Galicia"
     url: "https://www.linkedin.com/posts/prisma-medios-de-pago_un-nuevo-paso-estrat%C3%A9gico-para-fortalecer-activity-7431702737622470656-9ob4"
 
