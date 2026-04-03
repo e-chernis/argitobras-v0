@@ -3,6 +3,11 @@ title: 3D Secure
 subtitle: Autenticación inteligente para compras online. ✓ Casos de éxito documentados.
 image: assets/img/clients/prisma-card.png
 alt: 3D Secure
+success_links:
+  - title: "Documentación técnica"
+    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor"
+  - title: "LinkedIn: Banco Galicia"
+    url: "https://www.linkedin.com/posts/prisma-medios-de-pago_un-nuevo-paso-estrat%C3%A9gico-para-fortalecer-activity-7431702737622470656-9ob4"
 
 caption:
   title: 3D Secure

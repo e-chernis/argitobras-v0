@@ -170,6 +170,15 @@
                 </div>
                 {% endif %}
               </div>
+              {% if project.success_links %}
+              <div class="portfolio-card__links">
+                {% for link in project.success_links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="portfolio-card__link">
+                  {{ link.title }} →
+                </a>
+                {% endfor %}
+              </div>
+              {% endif %}
             </article>
           </div>
           {% endfor %}

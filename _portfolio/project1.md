@@ -3,6 +3,9 @@ title: CVV2 dinámico
 subtitle: Seguridad avanzada para transacciones online. ✓ Casos de éxito en producción.
 image: assets/img/clients/prisma-card.png
 alt: CVV
+success_links:
+  - title: "Documentación oficial"
+    url: "https://www.prismamediosdepago.com/soluciones/procesamiento-emisor"
 
 caption:
   title: CVV
