@@ -257,7 +257,7 @@ es: &DEFAULT_ES
         logo: https://instantaccept.com/wp-content/uploads/2025/08/visa-secure-logo.webp
 
   team:
-    title: "Referencias y comentarios de ex colegas"
+    title: "Referencias y comentarios de colegas"
     text: "Referencias laborales de líderes y supervisores con quienes trabajé en Redbee, Balanz, Mercado Libre, Grupo Assa y Cidicom."
     subtext: ""
     section: equipo
@@ -277,7 +277,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y el compromiso, siempre estuvo dispuesto a ayudar y resolver necesidades del área. También investigamos juntos planes de mejora para el sector, siempre con foco en resultados."
       - name: "Miguel José Guevara Atencio"
-        role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
+        role: "REDBEE STUDIOS S.A. — Engineer Manager"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 264 419-6203"
         social:
@@ -285,7 +285,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Referencia laboral de liderazgo técnico durante proyectos de ingeniería y operación de plataformas críticas."
       - name: "Fabian Agüero"
-        role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
+        role: "REDBEE STUDIOS S.A. — Engineer Manager"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 11 3448-1956"
         social:
@@ -299,7 +299,7 @@ es: &DEFAULT_ES
         social: []
         bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
       - name: "Gabriel Palacios"
-        role: "REDBEE STUDIOS S.A. — Cliente TodoPago/BIMO (Ex IT Leader)"
+        role: "REDBEE STUDIOS S.A. — Cliente TodoPago/BIMO (IT Leader)"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 221 599-9998"
         social:
@@ -315,7 +315,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Referencia laboral en gestión de desarrollo de software y coordinación técnica."
       - name: "Damian Fantini"
-        role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
+        role: "MERCADOLIBRE S.R.L. — Internal Systems Supervisor"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         phone: "+54 9 11 4084-7354"
         social:
@@ -323,7 +323,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Referencia laboral en soporte y operación de sistemas internos."
       - name: "Ignacio Ezequiel Benitez"
-        role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
+        role: "MERCADOLIBRE S.R.L. — Internal Systems Supervisor"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         phone: "+54 9 11 5830-3281"
         social:
@@ -339,7 +339,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Referencia laboral regional para coordinación operativa LATAM."
       - name: "Jonathan Miño"
-        role: "GRUPO ASSA S.A. — Ex Scheduling Team Supervisor"
+        role: "GRUPO ASSA S.A. — Scheduling Team Supervisor"
         image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
         phone: "+54 9 11 3087-5224"
         social:
@@ -347,7 +347,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
         bio: "Referencia laboral en planificación operativa y coordinación de equipo."
       - name: "Javier Deheza"
-        role: "CIDICOM S.A. — Ex Software Development Supervisor"
+        role: "CIDICOM S.A. — Software Development Supervisor"
         image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
         phone: "+54 9 11 6300-8764"
         social:
