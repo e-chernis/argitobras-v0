@@ -1,13 +1,13 @@
 ---
 title: CVV Dinámico
 subtitle: Seguridad y autenticación de pagos.
-image: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80
+image: assets/img/portfolio/cvv2d.jpg
 alt: CVV Dinámico
 
 caption:
   title: CVV Dinámico
   subtitle: Seguridad de Pagos
-  thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80
+  thumbnail: assets/img/portfolio/cvv2d.jpg
 ---
 ## Descripción Detallada
 Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios, enfocándome en la protección contra fraudes en transacciones en línea. El proyecto involucró la integración de sistemas de verificación en tiempo real para generar CVV únicos por transacción.

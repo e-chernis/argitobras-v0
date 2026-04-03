@@ -59,22 +59,22 @@ en: &DEFAULT_EN
       - title: "DevOps Engineer at redbee Studios"
         year: "2021 - Present"
         desc: "Leading DevOps implementations in AWS Cloud, managing IaC with Terraform, CI/CD pipelines, EKS orchestration, and monitoring solutions."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/clients/redbee.jpg
         alt: redbee Studios
       - title: "DevOps at Balanz Capital"
         year: "2019 - 2021"
         desc: "Automated delivery processes, managed Kubernetes clusters, implemented ELK for logging, and optimized infrastructure for high availability."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/clients/balanz.jpg
         alt: Balanz Capital
       - title: "IT Analyst / DevOps Jr at Mercado Libre"
         year: "2017 - 2019"
         desc: "Provided IT support, automated processes with scripting, migrated to GCP, and contributed to agile development practices."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/clients/mercadolibre.webp
         alt: Mercado Libre
       - title: "IT Systems Analyst at gA Argentina"
         year: "2015 - 2017"
         desc: "Developed automation scripts, managed databases, and handled system monitoring and troubleshooting."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/clients/grupoassa.jpg
         alt: gA Argentina
     end: "Continuous <br> Learning <br> Journey!"
 
@@ -201,27 +201,27 @@ es: &DEFAULT_ES
       - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
         year: "Julio 2021 - Presente"
         desc: "Como DevOps Engineer, lidero la implementación de soluciones tecnológicas en AWS Cloud, impulsando la eficiencia operativa mediante la automatización de procesos y la optimización de infraestructuras a través de Infraestructura como Código (IaC). Gestiono y optimizo repositorios de microservicios, integrando diversas herramientas de CI/CD, monitoreo y gestión de seguridad para ofrecer soluciones escalables y de alta disponibilidad."
-        image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
+        image: assets/img/clients/redbee.jpg
         alt: Redbee Studios
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
         desc: "Implementamos e integramos herramientas de automatización para la entrega continua de servicios y desarrollos, optimizando flujos de trabajo tanto para equipos de desarrollo como para áreas administrativas. Gestionamos la infraestructura sobre Linux, abarcando provisión, configuración, mantenimiento y monitoreo de servicios críticos."
-        image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
+        image: assets/img/clients/balanz.jpg
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
         desc: "Formé parte del equipo de soporte técnico interno, brindando soporte de Nivel 1 en tres oficinas ubicadas en la Zona Sur de CABA. Mi misión fue garantizar una experiencia de usuario óptima a través de la resolución eficiente de incidentes y la implementación de automatizaciones para mejorar la operatividad del área."
-        image: https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
+        image: assets/img/clients/mercadolibre.webp
         alt: MercadoLibre
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
         desc: "Inicié mi trayectoria como administrador de bases de datos en MS-SQL Server 2008 y 2012, asegurando la operatividad del cliente mediante la ejecución y optimización de consultas hasta la finalización del servicio. Posteriormente, me integré a un equipo de desarrollo, donde mi enfoque se trasladó a la automatización de procesos en entornos UNIX y Windows Server."
-        image: https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
+        image: assets/img/clients/grupoassa.jpg
         alt: Grupo Assa
       - title: "Desarrollador Java en CidicOM"
         year: "Febrero 2015 - Julio 2015"
         desc: "Lideré el desarrollo de un sistema de gestión de empleados para una empresa de remolcadores, diseñado para optimizar el control de accesos, asignación de turnos y administración de información clave sobre barcos y tripulaciones."
-        image: https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80
+        image: assets/img/clients/cidicOM.jpg
         alt: CidicOM
     end: "¡Viaje Continuo <br> de Aprendizaje!"
 
