@@ -7,8 +7,9 @@
     {% assign t = site.data.sitetext[site.locale] %}
     {% assign n = site.data.navigation[site.locale].nav %}
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #212529;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid px-3 px-lg-4 d-flex justify-content-start align-items-center">
+        <div class="d-flex align-items-center flex-wrap nav-actions">
         <div class="dropdown section-dropdown">
           <button class="btn btn-outline-light section-dropdown-toggle dropdown-toggle js-scroll-trigger" type="button" id="sectionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Abrir menú de secciones">
             <i class="fas fa-stream mr-2"></i>Secciones
@@ -18,6 +19,11 @@
             <a class="dropdown-item js-scroll-trigger" href="{{ '/' | relative_url }}#{{ item.section }}">{{ item.title }}</a>
             {% endfor %}
           </div>
+        </div>
+        <button class="btn btn-outline-light theme-toggle-button" type="button" data-theme-toggle aria-label="Cambiar tema">
+          <i class="fas fa-moon mr-2" data-theme-icon aria-hidden="true"></i>
+          <span data-theme-label>Modo claro</span>
+        </button>
         </div>
       </div>
     </nav>
@@ -60,5 +66,6 @@
     <script src="{{ '/assets/js/jqBootstrapValidation.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/contact_me.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   </body>
 </html>

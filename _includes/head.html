@@ -4,10 +4,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="{{ site.description | escape }}">
 <meta name="author" content="{{ site.author | escape }}">
+<meta name="color-scheme" content="dark light">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+<script>
+  (function () {
+	var storageKey = 'argitobras-theme';
+	var theme = 'dark';
+
+	try {
+	  var saved = window.localStorage.getItem(storageKey);
+	  if (saved === 'light' || saved === 'dark') {
+		theme = saved;
+	  }
+	} catch (e) {
+	  theme = 'dark';
+	}
+
+	document.documentElement.setAttribute('data-theme', theme);
+	document.documentElement.style.colorScheme = theme;
+  }());
+</script>
 
 <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
