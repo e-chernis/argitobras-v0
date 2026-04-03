@@ -1,12 +1,12 @@
 ---
 title: CVV2 dinámico
-subtitle: Seguridad avanzada para transacciones online.
+subtitle: Seguridad avanzada para transacciones online. ✓ Casos de éxito en producción.
 image: assets/img/clients/prisma-card.png
 alt: CVV
 
 caption:
   title: CVV
-  subtitle: Protección antifraude continua
+  subtitle: Protección antifraude continua — Documentado en Prisma
   thumbnail: assets/img/clients/prisma-card.png
 ---
 ## Descripción Detallada
