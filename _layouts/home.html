@@ -216,6 +216,9 @@
                 </div>
               </div>
               <p class="team-card__bio">{{ person.bio }}</p>
+              {% if person.phone %}
+              <p class="team-card__phone"><strong>Tel:</strong> {{ person.phone }}</p>
+              {% endif %}
               {% if person.social and person.social.size > 0 %}
               <div class="team-card__links">
                 {% for network in person.social %}

@@ -178,7 +178,7 @@ es: &DEFAULT_ES
         icon: fas fa-shield-alt
 
   portfolio:
-    title: "Portafolio"
+    title: "Experiencia laboral"
     text: "Implementaciones destacadas en seguridad de pagos, automatización, plataformas cloud y operación de servicios críticos."
     section: portafolio
     closebutton: "Cerrar Proyecto"
@@ -254,28 +254,92 @@ es: &DEFAULT_ES
         logo: assets/img/clients/bimo-card.png
       - title: "Visa Secure"
         url: https://www.visa.com.ar/
-        logo: https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg
+        logo: https://instantaccept.com/wp-content/uploads/2025/08/visa-secure-logo.webp
 
   team:
     title: "Referencias y comentarios de ex colegas"
-    text: "Opiniones de profesionales con quienes trabajé en distintos equipos y contextos técnicos."
+    text: "Referencias laborales de líderes y supervisores con quienes trabajé en Redbee, Balanz, Mercado Libre, Grupo Assa y Cidicom."
     subtext: ""
     section: equipo
     people:
-      - name: "Federico Ignacio Ibarra Berardi"
-        role: "Backend Software Developer"
+      - name: "Miguel José Guevara Atencio"
+        role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
         image: assets/img/team/1.gif
+        phone: "+54 9 264 419-6203"
         social:
-          - url: https://ar.linkedin.com/in/federico-ibarra-berardi
+          - url: https://www.linkedin.com/in/migueljguevara/
             icon: fab fa-linkedin-in
-        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo. Es una persona con mucho conocimiento, pragmática y con muy buena onda. Siempre está dispuesto a dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
-      - name: "Santiago Sola"
-        role: "BI Specialist"
+        bio: "Referencia laboral de liderazgo técnico durante proyectos de ingeniería y operación de plataformas críticas."
+      - name: "Fabian Agüero"
+        role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
         image: assets/img/team/2.gif
+        phone: "+54 9 11 3448-1956"
         social:
-          - url: https://ar.linkedin.com
+          - url: https://www.linkedin.com/in/faguero/
             icon: fab fa-linkedin-in
-        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y el compromiso, siempre estuvo dispuesto a ayudar y resolver necesidades del área. También investigamos juntos planes de mejora para el sector, siempre con foco en resultados."
+        bio: "Referencia laboral de gestión y acompañamiento en equipos de ingeniería."
+      - name: "Javier Ulrich"
+        role: "REDBEE STUDIOS S.A. — Cliente 3D Secure/CVV Dinámico (IT Leader)"
+        image: assets/img/team/1.gif
+        phone: "+54 9 11 5939-4117"
+        social: []
+        bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
+      - name: "Gabriel Palacios"
+        role: "REDBEE STUDIOS S.A. — Cliente TodoPago/BIMO (Ex IT Leader)"
+        image: assets/img/team/2.gif
+        phone: "+54 9 221 599-9998"
+        social:
+          - url: https://www.linkedin.com/in/gpalacios-link/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral de cliente en productos de billetera digital y operación de servicios críticos."
+      - name: "Javier Gutierrez"
+        role: "BALANZ CAPITAL VALORES S.A.U. — Software Development Supervisor"
+        image: assets/img/team/1.gif
+        phone: "+54 9 11 3211-3247"
+        social:
+          - url: https://www.linkedin.com/in/javier-gutierrez-80597619/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral en gestión de desarrollo de software y coordinación técnica."
+      - name: "Damian Fantini"
+        role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
+        image: assets/img/team/2.gif
+        phone: "+54 9 11 4084-7354"
+        social:
+          - url: https://www.linkedin.com/in/damian-fantini-0366755/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral en soporte y operación de sistemas internos."
+      - name: "Ignacio Ezequiel Benitez"
+        role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
+        image: assets/img/team/1.gif
+        phone: "+54 9 11 5830-3281"
+        social:
+          - url: https://www.linkedin.com/in/ignacio-ezequiel-benitez-69367410b/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral en procesos de infraestructura y soporte corporativo."
+      - name: "Fernando Ghiorsi"
+        role: "MERCADOLIBRE S.R.L. — Internal Systems LATAM Coordinator"
+        image: assets/img/team/2.gif
+        phone: "+598 96 747 369"
+        social:
+          - url: https://www.linkedin.com/in/fernando-ghiorsi-16829038/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral regional para coordinación operativa LATAM."
+      - name: "Jonathan Miño"
+        role: "GRUPO ASSA S.A. — Ex Scheduling Team Supervisor"
+        image: assets/img/team/1.gif
+        phone: "+54 9 11 3087-5224"
+        social:
+          - url: https://www.linkedin.com/in/jonathan-mi%C3%B1o-45283579/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral en planificación operativa y coordinación de equipo."
+      - name: "Javier Deheza"
+        role: "CIDICOM S.A. — Ex Software Development Supervisor"
+        image: assets/img/team/2.gif
+        phone: "+54 9 11 6300-8764"
+        social:
+          - url: https://www.linkedin.com/in/javier-deheza-cdmp-cbip-20407151/
+            icon: fab fa-linkedin-in
+        bio: "Referencia laboral de supervisión de desarrollo de software."
 
   contact:
     title: "Contáctame"

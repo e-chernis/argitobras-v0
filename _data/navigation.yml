@@ -44,7 +44,7 @@ es: &DEFAULT_ES
       section: cronologia
     - title: "Educación"
       section: education
-    - title: "Proyectos"
+    - title: "Experiencia laboral"
       section: portafolio
     - title: "Empresas"
       section: clientes

@@ -1,13 +1,13 @@
 ---
 title: 3D Secure
 subtitle: Seguridad y autenticación de pagos.
-image: https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg
+image: https://www.condusef.gob.mx/imagenes/comercio/seguridad-3dsecure.png
 alt: 3D Secure
 
 caption:
   title: 3D Secure
   subtitle: Seguridad de Pagos
-  thumbnail: https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg
+  thumbnail: https://www.condusef.gob.mx/imagenes/comercio/seguridad-3dsecure.png
 ---
 Desarrollé protocolos 3D Secure para autenticación de transacciones en línea. Integré servicios de verificación de identidad con APIs externas, utilizando Terraform para IaC y Prometheus para monitoreo de rendimiento.
 

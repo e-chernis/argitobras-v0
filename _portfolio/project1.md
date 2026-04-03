@@ -1,13 +1,13 @@
 ---
 title: CVV dinámico
 subtitle: Seguridad y autenticación de pagos.
-image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
+image: assets/img/clients/prisma-card.png
 alt: CVV
 
 caption:
   title: CVV
   subtitle: Seguridad de Pagos
-  thumbnail: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
+  thumbnail: assets/img/clients/prisma-card.png
 ---
 ## Descripción Detallada
 Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios, enfocándome en la protección contra fraudes en transacciones en línea. El proyecto involucró la integración de sistemas de verificación en tiempo real para generar CVV únicos por transacción.
