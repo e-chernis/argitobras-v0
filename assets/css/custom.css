@@ -567,6 +567,31 @@ label[for="phone"],
   letter-spacing: 0.02em;
 }
 
+.portfolio-card__links {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.portfolio-card__link {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.portfolio-card__link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
 /* Reference cards */
 .team-card {
   background: #ffffff;
