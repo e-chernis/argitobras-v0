@@ -10,6 +10,25 @@ html, body {
   text-transform: none;
 }
 
+.section-dropdown {
+  margin-left: 0.75rem;
+}
+
+.section-dropdown .dropdown-toggle {
+  white-space: nowrap;
+}
+
+.section-dropdown .dropdown-menu {
+  min-width: 11rem;
+}
+
+@media (max-width: 991.98px) {
+  .section-dropdown {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
 header.masthead .intro-heading,
 header.masthead .intro-heading p,
 header.masthead .intro-lead-in,
@@ -24,18 +43,18 @@ header.masthead .intro-heading p {
   text-transform: none;
 }
 
-#nosotros,
-#about {
+section.page-section[id],
+header.masthead {
   scroll-margin-top: 90px;
 }
 
 header.masthead {
-  background: linear-gradient(rgba(15, 23, 36, 0.45), rgba(15, 23, 36, 0.45)), url("../img/header-bg.png") no-repeat center center / cover;
   position: relative;
   min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 header.masthead::before {

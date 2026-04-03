@@ -1,12 +1,23 @@
 /* Custom CV styling overrides */
 body {
   font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: url("../img/header-bg.png") fixed center / cover, #f8fafc !important;
   color: #222;
+  background: #f8fafc !important;
 }
+
+header.masthead {
+  background: none !important;
+}
+
 .masthead {
   background: linear-gradient(135deg,#0f1724 0%,#1e293b 60%);
   color: #fff;
+}
+
+/* Apply background image to rest of page (below header) */
+.page-section {
+  background: url("../img/header-bg.png") fixed center / cover;
+  background-attachment: fixed;
 }
 .profile-hero {
   display:flex;
