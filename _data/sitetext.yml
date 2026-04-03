@@ -77,6 +77,8 @@ en: &DEFAULT_EN
         image: assets/img/clients/grupoassa-timeline.png
         alt: Grupo Assa
     end: "Continuous <br> Learning <br> Journey!"
+    end_image: assets/img/portfolio/viaje_continuo.png
+    end_alt: Continuous Learning Journey
 
   about:
     title: "About Me"
@@ -153,7 +155,7 @@ en-AU:
 es: &DEFAULT_ES
   header:
     title: ¡Bienvenido a mi Portafolio!
-    text: Emmanuel Martín Chernis - Ingeniero DevOps
+    text: Ingeniero DevOps certificado en AWS, con foco en automatización, CI/CD, observabilidad y plataformas críticas.
     button: Saber Más
     buttonlink: "#nosotros"
 
@@ -183,35 +185,37 @@ es: &DEFAULT_ES
 
   timeline:
     title: "Mi Trayectoria Profesional"
-    text: "Experiencia laboral en DevOps e IT."
+    text: "Un recorrido claro por mi evolución profesional en DevOps, automatización e infraestructura crítica."
     section: cronologia
     events:
       - title: "SRE Admin / Ingeniero DevOps en Redbee Studios"
         year: "Julio 2021 - Presente"
-        desc: "Como DevOps Engineer, lidero la implementación de soluciones tecnológicas en AWS Cloud, impulsando la eficiencia operativa mediante la automatización de procesos y la optimización de infraestructuras a través de Infraestructura como Código (IaC). Gestiono y optimizo repositorios de microservicios, integrando diversas herramientas de CI/CD, monitoreo y gestión de seguridad para ofrecer soluciones escalables y de alta disponibilidad."
+        desc: "Lidero iniciativas de automatización y mejora continua sobre AWS Cloud. Diseño y mantengo infraestructura como código, repositorios de microservicios, pipelines de CI/CD, monitoreo y controles de seguridad para sostener plataformas escalables y de alta disponibilidad."
         image: assets/img/clients/redbee.jpg
         alt: Redbee Studios
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
-        desc: "Implementamos e integramos herramientas de automatización para la entrega continua de servicios y desarrollos, optimizando flujos de trabajo tanto para equipos de desarrollo como para áreas administrativas. Gestionamos la infraestructura sobre Linux, abarcando provisión, configuración, mantenimiento y monitoreo de servicios críticos."
+        desc: "Automatizamos la entrega continua de servicios y desarrollos, simplificando el trabajo de los equipos técnicos y de negocio. También administré infraestructura Linux, cubriendo provisión, configuración, mantenimiento y monitoreo de servicios críticos."
         image: assets/img/clients/balanz-timeline.png
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
-        desc: "Formé parte del equipo de soporte técnico interno, brindando soporte de Nivel 1 en tres oficinas ubicadas en la Zona Sur de CABA. Mi misión fue garantizar una experiencia de usuario óptima a través de la resolución eficiente de incidentes y la implementación de automatizaciones para mejorar la operatividad del área."
+        desc: "Brindé soporte técnico interno de Nivel 1 en tres oficinas de la Zona Sur de CABA. Además, participé en automatizaciones y mejoras operativas que acompañaron la migración a GCP y el trabajo diario de los equipos."
         image: assets/img/clients/mercadolibre.webp
         alt: MercadoLibre
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
-        desc: "Inicié mi trayectoria como administrador de bases de datos en MS-SQL Server 2008 y 2012, asegurando la operatividad del cliente mediante la ejecución y optimización de consultas hasta la finalización del servicio. Posteriormente, me integré a un equipo de desarrollo, donde mi enfoque se trasladó a la automatización de procesos en entornos UNIX y Windows Server."
+        desc: "Comencé administrando bases de datos MS-SQL Server 2008 y 2012, asegurando continuidad operativa y consultas eficientes. Más tarde me integré a un equipo de desarrollo, donde profundicé en automatización para entornos UNIX y Windows Server."
         image: assets/img/clients/grupoassa-timeline.png
         alt: Grupo Assa
       - title: "Desarrollador Java en Cidicom"
         year: "Febrero 2015 - Julio 2015"
-        desc: "Lideré el desarrollo de un sistema de gestión de empleados para una empresa de remolcadores, diseñado para optimizar el control de accesos, asignación de turnos y administración de información clave sobre barcos y tripulaciones."
-        image: assets/img/portfolio/cidicom-logo.png
+        desc: "Desarrollé un sistema de gestión de empleados para una empresa de remolcadores. La solución ayudaba a controlar accesos, asignar turnos y administrar información clave sobre barcos y tripulaciones."
+        image: assets/img/clients/cidicom-card.png
         alt: Cidicom
     end: "¡Viaje Continuo <br> de Aprendizaje!"
+    end_image: assets/img/portfolio/viaje_continuo.png
+    end_alt: Viaje Continuo de Aprendizaje
 
   about:
     title: "Sobre Mí"
@@ -236,6 +240,9 @@ es: &DEFAULT_ES
       - title: "Balanz"
         url: https://balanz.com/
         logo: assets/img/clients/balanz-card.png
+      - title: "Redbee"
+        url: https://redbee.io/
+        logo: assets/img/clients/redbee-card.png
       - title: "Prisma"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/prisma-card.png
@@ -245,14 +252,11 @@ es: &DEFAULT_ES
       - title: "BIMO"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/bimo-card.png
-      - title: "Redbee"
-        url: https://redbee.io/
-        logo: assets/img/clients/redbee-card.png
-      - title: "CVV"
-        url: https://www.prismamediosdepago.com/
-        logo: assets/img/clients/3dsecure-card.png
       - title: "Visa"
         url: https://www.visa.com.ar/
+        logo: assets/img/clients/3dsecure-card.png
+      - title: "CVV"
+        url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/3dsecure-card.png
 
   team:
