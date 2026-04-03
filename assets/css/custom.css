@@ -470,19 +470,36 @@ label[for="phone"],
   background: #fff;
 }
 
-/* Mobile: make company and education logos more readable inside timeline circles */
+/* Mobile: prevent logo/text overlap in timeline cards while keeping logos large */
 @media (max-width: 767.98px) {
+  .timeline > li {
+    position: relative;
+    min-height: 140px;
+  }
+
   .timeline > li .timeline-image:not(.timeline-image--end) {
-    width: 126px;
-    height: 126px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 118px;
+    height: 118px;
+    margin-left: 0;
+  }
+
+  .timeline > li .timeline-panel,
+  .timeline > li.timeline-inverted > .timeline-panel {
+    width: 100%;
+    float: none;
+    padding: 1.15rem 1rem 1.15rem 8rem;
+    text-align: left;
   }
 
   .timeline > li .timeline-image:not(.timeline-image--end) .timeline-image__img {
     padding: 0.45rem !important;
-    transform: scale(1.18);
+    transform: scale(1.15);
   }
 
   #education .timeline > li .timeline-image:not(.timeline-image--end) .timeline-image__img {
-    transform: scale(1.2);
+    transform: scale(1.18);
   }
 }
