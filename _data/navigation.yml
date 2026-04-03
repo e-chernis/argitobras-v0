@@ -23,9 +23,7 @@ en: &DEFAULT_EN
       section: education
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-en-US:
+ssen-US:
   <<: *DEFAULT_EN
 en-CA:
   <<: *DEFAULT_EN
@@ -39,21 +37,17 @@ en-AU:
 es: &DEFAULT_ES
   nav:
     - title: "Sobre Mí"
-      section: about
+      section: nosotros
     - title: "Experiencia"
-      section: timeline
+      section: cronologia
     - title: "Habilidades"
-      section: services
+      section: servicios
     - title: "Portafolio"
-      section: portfolio
-    - title: "Blog"
-      section: posts
+      section: portafolio
     - title: "Educación"
       section: education
     - title: "Contacto"
-      section: contact
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+      section: contacto
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

@@ -1,13 +1,13 @@
 ---
 title: CVV
 subtitle: Seguridad y autenticación de pagos.
-image: assets/img/portfolio/cvv2d.jpg
+image: assets/img/portfolio/3dsecure.jpg
 alt: CVV
 
 caption:
   title: CVV
   subtitle: Seguridad de Pagos
-  thumbnail: assets/img/portfolio/cvv2d.jpg
+  thumbnail: assets/img/portfolio/3dsecure.jpg
 ---
 ## Descripción Detallada
 Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios, enfocándome en la protección contra fraudes en transacciones en línea. El proyecto involucró la integración de sistemas de verificación en tiempo real para generar CVV únicos por transacción.

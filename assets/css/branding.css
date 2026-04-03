@@ -1,0 +1,25 @@
+/* Professional typography overrides for navbar brand and hero title */
+.navbar-brand {
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: none;
+}
+
+header.masthead .intro-heading,
+header.masthead .intro-heading p,
+header.masthead .intro-lead-in,
+header.masthead .intro-lead-in p {
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+header.masthead .intro-heading,
+header.masthead .intro-heading p {
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
+#equipo {
+  display: none !important;
+}
