@@ -8,11 +8,75 @@ body {
 
 header.masthead {
   background: none !important;
+  align-items: flex-start !important;
 }
 
 .masthead {
   background: linear-gradient(135deg,#0f1724 0%,#1e293b 60%);
   color: #fff;
+}
+
+/* Hero: make video more visible and move copy to the upper monitor area */
+header.masthead::before {
+  background: radial-gradient(circle at center, rgba(15, 23, 42, 0.08) 0%, rgba(15, 23, 42, 0.16) 58%, rgba(15, 23, 42, 0.24) 100%) !important;
+}
+
+header.masthead .container {
+  width: min(96vw, 1520px);
+  padding-top: clamp(84px, 11vh, 138px);
+}
+
+header.masthead .intro-text {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0.85rem 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.25rem;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.28) 0%, rgba(15, 23, 42, 0.2) 100%) !important;
+  border: 1px solid rgba(148, 163, 184, 0.28) !important;
+  backdrop-filter: blur(4px);
+}
+
+header.masthead .intro-lead-in,
+header.masthead .intro-heading {
+  margin: 0;
+}
+
+header.masthead .intro-lead-in {
+  font-size: clamp(1.05rem, 1.65vw, 1.7rem);
+  color: #e2e8f0;
+}
+
+header.masthead .intro-heading {
+  font-size: clamp(1.45rem, 3.1vw, 3rem);
+  line-height: 1.2;
+}
+
+header.masthead .intro-lead-in p,
+header.masthead .intro-heading p {
+  display: inline;
+}
+
+header.masthead .btn {
+  margin-top: 0.35rem;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 991.98px) {
+  header.masthead .intro-text {
+    gap: 0.4rem 0.75rem;
+    padding: 0.75rem 0.85rem;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.32) 100%) !important;
+  }
+
+  header.masthead .intro-heading {
+    font-size: clamp(1.35rem, 6.2vw, 2.05rem);
+  }
 }
 
 /* Keep content readable with a calmer background instead of the busy image */
