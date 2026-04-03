@@ -1,13 +1,13 @@
 ---
 title: Automatización en Mercadolibre
 subtitle: Soporte IT y scripting.
-image: assets/img/portfolio/it-support-mercadolibre.png
+image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
 alt: Automatización
 
 caption:
   title: IT Support Automation
   subtitle: Soporte IT
-  thumbnail: assets/img/portfolio/it-support-mercadolibre.png
+  thumbnail: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
 ---
 En Mercadolibre, automatizé procesos de soporte técnico con scripting en Python y PowerShell, gestioné redes y dispositivos, y optimicé inventarios con herramientas como Snipe-IT.
 

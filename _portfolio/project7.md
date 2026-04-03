@@ -1,13 +1,13 @@
 ---
 title: Plataforma Cidicom
 subtitle: Desarrollo Java para gestión operativa.
-image: assets/img/clients/cidicom-card.png
+image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
 alt: Cidicom
 
 caption:
   title: Cidicom
   subtitle: Desarrollo de Software
-  thumbnail: assets/img/clients/cidicom-card.png
+  thumbnail: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
 ---
 Desarrollé una solución Java para la gestión de empleados y operaciones internas en Cidicom, orientada a mejorar el control de accesos, asignación de turnos y trazabilidad de información crítica.
 

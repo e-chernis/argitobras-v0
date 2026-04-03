@@ -144,6 +144,34 @@
       </div>
     </section>
 
+    <section class="page-section" id="{{ t.portfolio.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.portfolio.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.portfolio.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          {% for project in site.portfolio %}
+          {% assign project_image = project.image %}
+          {% unless project.image contains '://' %}
+          {% assign project_image = project.image | relative_url %}
+          {% endunless %}
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <article class="portfolio-card h-100">
+              <img class="img-fluid portfolio-card__img" src="{{ project_image }}" alt="{{ project.alt | default: project.title }}" loading="lazy" decoding="async">
+              <div class="portfolio-card__body">
+                <h4 class="portfolio-card__title">{{ project.title }}</h4>
+                <p class="portfolio-card__subtitle">{{ project.subtitle }}</p>
+              </div>
+            </article>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
     <section class="py-5" id="{{ t.clients.section }}">
       <div class="container">
         <div class="row mb-4">
@@ -152,27 +180,44 @@
           </div>
         </div>
 
-        <div class="row mb-3">
+        <div class="row mb-3 justify-content-center">
           {% for client in t.clients.list %}
-          {% unless client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" %}
-          <div class="col-md-3 col-sm-6">
+          {% assign client_logo = client.logo %}
+          {% unless client.logo contains '://' %}
+          {% assign client_logo = client.logo | relative_url %}
+          {% endunless %}
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
-              <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
+              <img class="img-fluid d-block mx-auto client-logo" src="{{ client_logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
             </a>
           </div>
-          {% endunless %}
           {% endfor %}
         </div>
+      </div>
+    </section>
 
+    <section class="bg-light page-section" id="{{ t.team.section }}">
+      <div class="container">
         <div class="row">
-          {% for client in t.clients.list %}
-          {% if client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" %}
-          <div class="col-md-3 col-sm-6">
-            <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
-              <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
-            </a>
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.team.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.team.text }}</h3>
           </div>
-          {% endif %}
+        </div>
+        <div class="row">
+          {% for person in t.team.people %}
+          <div class="col-lg-6 mb-4">
+            <article class="team-card h-100">
+              <div class="team-card__head">
+                <img class="rounded-circle team-card__img" src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy" decoding="async">
+                <div>
+                  <h4 class="team-card__name">{{ person.name }}</h4>
+                  <p class="team-card__role">{{ person.role }}</p>
+                </div>
+              </div>
+              <p class="team-card__bio">{{ person.bio }}</p>
+            </article>
+          </div>
           {% endfor %}
         </div>
       </div>

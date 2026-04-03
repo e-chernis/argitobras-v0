@@ -76,9 +76,9 @@ en: &DEFAULT_EN
         desc: "Developed automation scripts, managed databases, and handled system monitoring and troubleshooting."
         image: assets/img/clients/grupoassa-timeline.png
         alt: Grupo Assa
-    end: "Continuous <br> Learning <br> Journey!"
-    end_image: assets/img/portfolio/viaje_continuo.png
-    end_alt: Continuous Learning Journey
+    end: ""
+    end_image: ""
+    end_alt: ""
 
   about:
     title: "About Me"
@@ -179,7 +179,7 @@ es: &DEFAULT_ES
 
   portfolio:
     title: "Portafolio"
-    text: "Proyectos destacados en los que he trabajado."
+    text: "Implementaciones destacadas en seguridad de pagos, automatización, plataformas cloud y operación de servicios críticos."
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
@@ -213,9 +213,9 @@ es: &DEFAULT_ES
         desc: "Desarrollé un sistema de gestión de empleados para una empresa de remolcadores. La solución ayudaba a controlar accesos, asignar turnos y administrar información clave sobre barcos y tripulaciones."
         image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
         alt: Cidicom
-    end: "¡Viaje Continuo <br> de Aprendizaje!"
-    end_image: assets/img/portfolio/viaje_continuo.png
-    end_alt: Viaje Continuo de Aprendizaje
+    end: ""
+    end_image: ""
+    end_alt: ""
 
   about:
     title: "Sobre Mí"
@@ -257,20 +257,25 @@ es: &DEFAULT_ES
         logo: https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg
 
   team:
-    title: "Testimonios y recomendaciones"
-    text: "Lo que dicen colegas y referentes de trabajo."
-    subtext: Información personal y profesional resumida en recomendaciones.
+    title: "Referencias y comentarios de ex colegas"
+    text: "Opiniones de profesionales con quienes trabajé en distintos equipos y contextos técnicos."
+    subtext: ""
     section: equipo
     people:
-      - name: "Emmanuel Martín Chernis"
-        role: "Ingeniero DevOps con experiencia en AWS"
+      - name: "Federico Ignacio Ibarra Berardi"
+        role: "Backend Software Developer"
+        image: assets/img/team/1.gif
+        social:
+          - url: https://ar.linkedin.com/in/federico-ibarra-berardi
+            icon: fab fa-linkedin-in
+        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo. Es una persona con mucho conocimiento, pragmática y con muy buena onda. Siempre está dispuesto a dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
+      - name: "Santiago Sola"
+        role: "BI Specialist"
         image: assets/img/team/2.gif
         social:
-          - url: https://ar.linkedin.com/in/echernis
+          - url: https://ar.linkedin.com
             icon: fab fa-linkedin-in
-          - url: https://github.com/e-chernis
-            icon: fab fa-github
-        bio: "Ingeniero DevOps con experiencia en AWS, automatización, CI/CD y monitoreo. Trabajo actualmente en Redbee Studios, con proyectos en seguridad de pagos y billeteras virtuales. Apasionado por la tecnología y el aprendizaje continuo."
+        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y el compromiso, siempre estuvo dispuesto a ayudar y resolver necesidades del área. También investigamos juntos planes de mejora para el sector, siempre con foco en resultados."
 
   contact:
     title: "Contáctame"

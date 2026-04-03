@@ -44,8 +44,12 @@ es: &DEFAULT_ES
       section: cronologia
     - title: "Educación"
       section: education
+    - title: "Proyectos"
+      section: portafolio
     - title: "Empresas"
       section: clientes
+    - title: "Referencias"
+      section: equipo
     - title: "Contacto"
       section: contacto
 es-ES:
