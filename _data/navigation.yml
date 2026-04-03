@@ -46,7 +46,7 @@ es: &DEFAULT_ES
       section: education
     - title: "Experiencia laboral"
       section: portafolio
-    - title: "Empresas"
+    - title: "Empresas en las que brindé servicios"
       section: clientes
     - title: "Referencias"
       section: equipo
