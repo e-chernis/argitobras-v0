@@ -131,6 +131,14 @@ header.masthead .btn {
   padding-bottom: 5.75rem;
 }
 
+.page-section--content {
+  padding-top: 7.5rem;
+}
+
+.page-section--content .container > :first-child {
+  margin-top: 0.5rem;
+}
+
 .page-section .container {
   position: relative;
   z-index: 1;
