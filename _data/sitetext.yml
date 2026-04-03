@@ -88,19 +88,7 @@ en: &DEFAULT_EN
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+    list: []
 
   team:
     title: "Recommendations"
@@ -251,8 +239,8 @@ es: &DEFAULT_ES
       - title: "Prisma"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/prisma-card.png
-      - title: "Redbee"
-        url: https://redbee.io/
+      - title: "Visa"
+        url: https://www.visa.com.ar/
         logo: assets/img/clients/redbee-card.png
       - title: "TodoPago"
         url: https://www.visa.com.ar/
@@ -260,6 +248,9 @@ es: &DEFAULT_ES
       - title: "BIMO"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/bimo-card.png
+      - title: "Redbee"
+        url: https://redbee.io/
+        logo: assets/img/clients/3dsecure-card.png
       - title: "CVV"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/3dsecure-card.png

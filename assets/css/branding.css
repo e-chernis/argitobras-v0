@@ -30,10 +30,11 @@ header.masthead .intro-heading p {
 }
 
 header.masthead {
-  background-image: linear-gradient(rgba(15, 23, 36, 0.45), rgba(15, 23, 36, 0.45)), url("../img/header-bg.png") !important;
+  background-image: linear-gradient(rgba(15, 23, 36, 0.45), rgba(15, 23, 36, 0.45)), url("../img/header-bg-2.png") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
 
 .about-profile-photo {
