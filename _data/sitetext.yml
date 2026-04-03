@@ -117,16 +117,6 @@ en: &DEFAULT_EN
     title: "Contact Me"
     text: "For privacy, contact is handled through professional profiles rather than public email or a direct form."
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
@@ -363,16 +353,6 @@ es: &DEFAULT_ES
     title: "Contáctame"
     text: "Para preservar la privacidad, el contacto se realiza por perfiles profesionales y no mediante correo público o formulario directo."
     section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
 
   footer:
     legal: "Política de Privacidad"

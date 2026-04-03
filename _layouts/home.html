@@ -90,28 +90,19 @@
             <h3 class="section-subheading text-muted">{{ t.timeline.text }}</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              {% for event in t.timeline.events %}
-              {% assign is_inverted = forloop.index0 | modulo: 2 %}
-              <li{% if is_inverted == 1 %} class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <img class="timeline-image__img rounded-circle img-fluid" src="{{ event.image | relative_url }}" alt="{{ event.alt }}" loading="lazy" decoding="async">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <p class="timeline-year">{{ event.year }}</p>
-                    <h3 class="timeline-title">{{ event.title }}</h3>
-                  </div>
-                  <div class="timeline-body">
-                    <div class="text-muted timeline-copy">{{ event.desc | markdownify }}</div>
-                  </div>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
+        <div class="experience-grid">
+          {% for event in t.timeline.events %}
+          <article class="experience-card">
+            <div class="experience-card__media">
+              <img class="experience-card__img" src="{{ event.image | relative_url }}" alt="{{ event.alt }}" loading="lazy" decoding="async">
+            </div>
+            <div class="experience-card__body">
+              <p class="experience-card__year">{{ event.year }}</p>
+              <h3 class="experience-card__title">{{ event.title }}</h3>
+              <div class="text-muted experience-card__copy">{{ event.desc | markdownify }}</div>
+            </div>
+          </article>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -124,28 +115,19 @@
             <h3 class="section-subheading text-muted">{{ t.education.text }}</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              {% for event in t.education.events %}
-              {% assign is_inverted = forloop.index0 | modulo: 2 %}
-              <li{% if is_inverted == 1 %} class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <img class="timeline-image__img rounded-circle img-fluid" src="{{ event.image | relative_url }}" alt="{{ event.alt }}" loading="lazy" decoding="async">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <p class="timeline-year">{{ event.year }}</p>
-                    <h3 class="timeline-title">{{ event.title }}</h3>
-                  </div>
-                  <div class="timeline-body">
-                    <div class="text-muted timeline-copy">{{ event.desc | markdownify }}</div>
-                  </div>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
+        <div class="education-grid">
+          {% for event in t.education.events %}
+          <article class="experience-card experience-card--education">
+            <div class="experience-card__media">
+              <img class="experience-card__img" src="{{ event.image | relative_url }}" alt="{{ event.alt }}" loading="lazy" decoding="async">
+            </div>
+            <div class="experience-card__body">
+              <p class="experience-card__year">{{ event.year }}</p>
+              <h3 class="experience-card__title">{{ event.title }}</h3>
+              <div class="text-muted experience-card__copy">{{ event.desc | markdownify }}</div>
+            </div>
+          </article>
+          {% endfor %}
         </div>
       </div>
     </section>
