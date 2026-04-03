@@ -720,6 +720,36 @@ label[for="phone"],
   }
 }
 
+.contact-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-radius: 1.1rem;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  text-align: center;
+}
+
+.contact-card__copy {
+  margin: 0;
+  color: #334155;
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.contact-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.contact-card__actions .btn {
+  min-width: 11rem;
+}
+
 /* Dark theme overrides (default theme). Light theme remains the base styling. */
 html[data-theme="dark"] {
   color-scheme: dark;
@@ -773,6 +803,7 @@ html[data-theme="dark"] .team-card__name {
 
 html[data-theme="dark"] .portfolio-card,
 html[data-theme="dark"] .team-card,
+html[data-theme="dark"] .contact-card,
 html[data-theme="dark"] .timeline > li .timeline-panel {
   background: rgba(15, 23, 42, 0.74) !important;
   border: 1px solid rgba(148, 163, 184, 0.16);
@@ -791,6 +822,10 @@ html[data-theme="dark"] .team-card__links a,
 html[data-theme="dark"] .footer a,
 html[data-theme="dark"] a {
   color: #7dd3fc;
+}
+
+html[data-theme="dark"] .contact-card__copy {
+  color: #cbd5e1;
 }
 
 html[data-theme="dark"] .portfolio-card__link:hover,
