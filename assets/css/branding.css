@@ -30,12 +30,12 @@ header.masthead .intro-heading p {
 }
 
 header.masthead {
-  background: linear-gradient(rgba(15, 23, 36, 0.45), rgba(15, 23, 36, 0.45)), url("../img/header-bg.png") no-repeat center center / cover;
   position: relative;
   min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 header.masthead::before {
