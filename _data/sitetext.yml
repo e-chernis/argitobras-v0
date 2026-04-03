@@ -275,14 +275,14 @@ es: &DEFAULT_ES
     section: equipo
     people:
       - name: "Federico Ignacio Ibarra Berardi"
-        role: "Backend Software Developer"
+        role: "REDBEE STUDIOS S.A. — Backend Software Developer"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         social:
           - url: https://www.linkedin.com/in/federico-ibarra-berardi
             icon: fab fa-linkedin-in
         bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo. Es una persona con mucho conocimiento, pragmática y con muy buena onda. Siempre está dispuesto a dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
       - name: "Santiago Sola"
-        role: "BI Specialist"
+        role: "MERCADOLIBRE S.R.L. — BI Specialist"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         social:
           - url: https://ar.linkedin.com
