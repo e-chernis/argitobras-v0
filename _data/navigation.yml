@@ -46,6 +46,8 @@ es: &DEFAULT_ES
       section: services
     - title: "Portafolio"
       section: portfolio
+    - title: "Blog"
+      section: posts
     - title: "Educación"
       section: education
     - title: "Contacto"

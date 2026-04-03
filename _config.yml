@@ -17,10 +17,11 @@ remote_theme: e-chernis/agency-jekyll-theme
 url    : "https://www.argitobras.com.ar" # Para tu dominio custom
 baseurl: "" # Sitio en la raíz del dominio
 
-title      : Emmanuel Martín Chernis | Ingeniero DevOps Certificado en AWS
+title      : Emmanuel Martín Chernis | Ingeniero DevOps
 email      : Emmanuel_Chernis@hotmail.com # Replace with your actual email
-description: "Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps Certificado en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización."
+description: "Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización."
 author     : Emmanuel Martín Chernis
+keywords: "DevOps, AWS, Terraform, Kubernetes, CI/CD, Ingeniería de Software, Automatización, Monitoreo"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
