@@ -1,14 +1,24 @@
 /* Custom CV styling overrides */
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: #222;
   background: #f8fafc !important;
   line-height: 1.65;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 header.masthead {
   background: none !important;
   align-items: flex-start !important;
+  width: 100%;
+  overflow: hidden;
 }
 
 .masthead {
@@ -45,6 +55,7 @@ header.masthead .intro-text {
   border: 1px solid rgba(148, 163, 184, 0.28) !important;
   backdrop-filter: blur(4px);
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 header.masthead .intro-lead-in,
