@@ -44,6 +44,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
+            <img class="about-profile-photo mb-4" src="{{ '/assets/img/team/1.gif' | relative_url }}" alt="Foto de perfil Emmanuel Martín Chernis">
             <div class="large text-muted">{{ t.about.body | markdownify }}</div>
           </div>
         </div>
@@ -147,7 +148,7 @@
 
         <div class="row mb-3">
           {% for client in t.clients.list %}
-          {% unless client.title == "Prisma" or client.title == "BIMO" or client.title == "TodoPago" or client.title == "Visa" or client.title == "CVV" %}
+          {% unless client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" or client.title == "CVV" or client.title == "Visa" %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
@@ -159,7 +160,7 @@
 
         <div class="row">
           {% for client in t.clients.list %}
-          {% if client.title == "Prisma" or client.title == "BIMO" or client.title == "TodoPago" or client.title == "Visa" or client.title == "CVV" %}
+          {% if client.title == "Prisma" or client.title == "Redbee" or client.title == "TodoPago" or client.title == "BIMO" or client.title == "Visa" %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
