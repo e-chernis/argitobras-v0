@@ -90,17 +90,8 @@ input:focus, textarea:focus {
 }
 
 .service-heading,
-.timeline-title,
 .card-title {
   color: #0f172a;
-}
-
-/* Hide phone field from contact form */
-#phone,
-input[name="phone"],
-label[for="phone"],
-.phone {
-  display: none !important;
 }
 
 /* Horizontal cards for experience and education */
@@ -172,15 +163,14 @@ label[for="phone"],
   overflow-wrap: anywhere;
 }
 
-.experience-card--education .experience-card__media {
-  flex-basis: 150px;
-  min-width: 150px;
-}
-
 @media (min-width: 992px) {
   .experience-grid,
   .education-grid {
     gap: 1.5rem;
+  }
+
+  .education-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .experience-card {
@@ -214,81 +204,12 @@ label[for="phone"],
   }
 }
 
-.timeline-image--end {
-  position: relative;
-  overflow: hidden;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.timeline-image--end::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 23, 36, 0.28);
-  z-index: 0;
-}
-
-.timeline-image--end h4 {
-  position: relative;
-  z-index: 1;
-  color: #fff;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
-  padding: 0 14px;
-  margin: 0;
-  line-height: 1.15;
-}
-
 /* Keep client logos even and centered */
 #clientes img,
 #clients img,
 .clients img {
   object-fit: contain;
   object-position: center;
-}
-
-/* Keep education logos visually consistent across different source dimensions */
-#education .card-img-top {
-  height: 180px;
-  object-fit: contain;
-  object-position: center;
-  padding: 16px;
-  background: #fff;
-}
-
-/* Mobile: prevent logo/text overlap in timeline cards while keeping logos large */
-@media (max-width: 767.98px) {
-  .timeline > li {
-    position: relative;
-    min-height: 140px;
-  }
-
-  .timeline > li .timeline-image:not(.timeline-image--end) {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 118px;
-    height: 118px;
-    margin-left: 0;
-  }
-
-  .timeline > li .timeline-panel,
-  .timeline > li.timeline-inverted > .timeline-panel {
-    width: 100%;
-    float: none;
-    padding: 1.15rem 1rem 1.15rem 8rem;
-    text-align: left;
-  }
-
-  .timeline > li .timeline-image:not(.timeline-image--end) .timeline-image__img {
-    padding: 0.45rem !important;
-    transform: scale(1.15);
-  }
-
-  #education .timeline > li .timeline-image:not(.timeline-image--end) .timeline-image__img {
-    transform: scale(1.18);
-  }
 }
 
 /* Portfolio cards */
@@ -576,7 +497,7 @@ html[data-theme="dark"] .experience-card {
 html[data-theme="dark"] .experience-card__media,
 html[data-theme="dark"] .portfolio-card__img,
 html[data-theme="dark"] .team-card__img,
-html[data-theme="dark"] #education .card-img-top {
+html[data-theme="dark"] .experience-card__media {
   background: #f8fafc;
 }
 
