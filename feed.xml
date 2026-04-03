@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.argitobras.com.ar/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.argitobras.com.ar/" rel="alternate" type="text/html" /><updated>2026-04-03T00:06:00+00:00</updated><id>https://www.argitobras.com.ar/feed.xml</id><title type="html">Emmanuel Martín Chernis | Ingeniero DevOps Certificado en AWS</title><subtitle>Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps Certificado en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización.</subtitle><author><name>Emmanuel Martín Chernis</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.argitobras.com.ar/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.argitobras.com.ar/" rel="alternate" type="text/html" /><updated>2026-04-03T00:18:12+00:00</updated><id>https://www.argitobras.com.ar/feed.xml</id><title type="html">Emmanuel Martín Chernis | Ingeniero DevOps</title><subtitle>Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización.</subtitle><author><name>Emmanuel Martín Chernis</name></author><entry><title type="html">Mejores Prácticas en CI/CD con Jenkins y GitLab CI</title><link href="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html" rel="alternate" type="text/html" title="Mejores Prácticas en CI/CD con Jenkins y GitLab CI" /><published>2026-04-02T00:00:00+00:00</published><updated>2026-04-02T00:00:00+00:00</updated><id>https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices</id><content type="html" xml:base="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html"><![CDATA[<p>En el mundo del DevOps, la integración y entrega continua (CI/CD) es fundamental para acelerar el desarrollo y mejorar la calidad del software. En este post, comparto algunas mejores prácticas basadas en mi experiencia implementando pipelines en Jenkins y GitLab CI.</p>
+
+<h2 id="1-automatización-desde-el-commit">1. Automatización desde el Commit</h2>
+<p>La clave es automatizar todo desde el primer commit. Usa webhooks para triggers automáticos en pushes a ramas principales.</p>
+
+<h2 id="2-pruebas-en-paralelo">2. Pruebas en Paralelo</h2>
+<p>Ejecuta pruebas unitarias, de integración y de seguridad en paralelo para reducir tiempos de build. En GitLab CI, usa stages como:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">stages</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">test</span>
+  <span class="pi">-</span> <span class="s">build</span>
+  <span class="pi">-</span> <span class="s">deploy</span>
+
+<span class="na">test</span><span class="pi">:</span>
+  <span class="na">script</span><span class="pi">:</span> <span class="s">npm test</span>
+  <span class="na">stage</span><span class="pi">:</span> <span class="s">test</span>
+
+<span class="na">build</span><span class="pi">:</span>
+  <span class="na">script</span><span class="pi">:</span> <span class="s">docker build .</span>
+  <span class="na">stage</span><span class="pi">:</span> <span class="s">build</span>
+</code></pre></div></div>
+
+<h2 id="3-monitoreo-y-alertas">3. Monitoreo y Alertas</h2>
+<p>Integra herramientas como Prometheus para monitorear pipelines y alertar en fallos.</p>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>Aplicar estas prácticas ha reducido nuestros tiempos de despliegue en un 50%. ¿Qué herramientas usas tú?</p>
+
+<p>¡Comparte tus experiencias en los comentarios!</p>]]></content><author><name>Emmanuel Martín Chernis</name></author><category term="DevOps" /><category term="CI/CD" /><summary type="html"><![CDATA[En el mundo del DevOps, la integración y entrega continua (CI/CD) es fundamental para acelerar el desarrollo y mejorar la calidad del software. En este post, comparto algunas mejores prácticas basadas en mi experiencia implementando pipelines en Jenkins y GitLab CI.]]></summary></entry></feed>
