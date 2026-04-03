@@ -382,6 +382,11 @@ label[for="phone"],
     padding: 1.6rem 1.75rem;
   }
 
+  #education .timeline > li .timeline-panel {
+    padding: 1.6rem 1.75rem 1.6rem 2.5rem;
+    margin-left: 1.5rem;
+  }
+
   .timeline-title {
     font-size: 1.6rem;
   }
@@ -401,6 +406,11 @@ label[for="phone"],
 
   .timeline > li .timeline-panel {
     padding: 1.8rem 2rem;
+  }
+
+  #education .timeline > li .timeline-panel {
+    padding: 1.8rem 2rem 1.8rem 3rem;
+    margin-left: 2rem;
   }
 }
 
