@@ -1,7 +1,7 @@
 /* Custom CV styling overrides */
 body {
   font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: #f8fafc !important;
+  background: url("../img/header-bg.png") fixed center / cover, #f8fafc !important;
   color: #222;
 }
 .masthead {
