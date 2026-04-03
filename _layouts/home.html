@@ -216,6 +216,15 @@
                 </div>
               </div>
               <p class="team-card__bio">{{ person.bio }}</p>
+              {% if person.social and person.social.size > 0 %}
+              <div class="team-card__links">
+                {% for network in person.social %}
+                <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer" aria-label="Perfil de {{ person.name }}">
+                  <i class="{{ network.icon }}"></i> LinkedIn
+                </a>
+                {% endfor %}
+              </div>
+              {% endif %}
             </article>
           </div>
           {% endfor %}
