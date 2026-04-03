@@ -279,7 +279,6 @@ es: &DEFAULT_ES
       - name: "Miguel José Guevara Atencio"
         role: "REDBEE STUDIOS S.A. — Engineer Manager"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
-        phone: "+54 9 264 419-6203"
         social:
           - url: https://www.linkedin.com/in/migueljguevara/
             icon: fab fa-linkedin-in
@@ -287,21 +286,18 @@ es: &DEFAULT_ES
       - name: "Fabian Agüero"
         role: "REDBEE STUDIOS S.A. — Engineer Manager"
         image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
-        phone: "+54 9 11 3448-1956"
         social:
           - url: https://www.linkedin.com/in/faguero/
             icon: fab fa-linkedin-in
         bio: "Referencia laboral de gestión y acompañamiento en equipos de ingeniería."
       - name: "Javier Ulrich"
-        role: "REDBEE STUDIOS S.A. — Cliente 3D Secure/CVV Dinámico (IT Leader)"
-        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
-        phone: "+54 9 11 5939-4117"
+        role: "PRISMA MEDIOS DE PAGO — Cliente 3D Secure / CVV2 Dinámico (IT Leader)"
+        image: assets/img/clients/prisma-card.png
         social: []
         bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
       - name: "Gabriel Palacios"
-        role: "REDBEE STUDIOS S.A. — Cliente TodoPago/BIMO (IT Leader)"
-        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
-        phone: "+54 9 221 599-9998"
+        role: "PRISMA MEDIOS DE PAGO — Cliente TodoPago / BIMO (IT Leader)"
+        image: assets/img/clients/prisma-card.png
         social:
           - url: https://www.linkedin.com/in/gpalacios-link/
             icon: fab fa-linkedin-in
@@ -309,7 +305,6 @@ es: &DEFAULT_ES
       - name: "Javier Gutierrez"
         role: "BALANZ CAPITAL VALORES S.A.U. — Software Development Supervisor"
         image: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
-        phone: "+54 9 11 3211-3247"
         social:
           - url: https://www.linkedin.com/in/javier-gutierrez-80597619/
             icon: fab fa-linkedin-in
@@ -317,7 +312,6 @@ es: &DEFAULT_ES
       - name: "Damian Fantini"
         role: "MERCADOLIBRE S.R.L. — Internal Systems Supervisor"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
-        phone: "+54 9 11 4084-7354"
         social:
           - url: https://www.linkedin.com/in/damian-fantini-0366755/
             icon: fab fa-linkedin-in
@@ -325,7 +319,6 @@ es: &DEFAULT_ES
       - name: "Ignacio Ezequiel Benitez"
         role: "MERCADOLIBRE S.R.L. — Internal Systems Supervisor"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
-        phone: "+54 9 11 5830-3281"
         social:
           - url: https://www.linkedin.com/in/ignacio-ezequiel-benitez-69367410b/
             icon: fab fa-linkedin-in
@@ -333,7 +326,6 @@ es: &DEFAULT_ES
       - name: "Fernando Ghiorsi"
         role: "MERCADOLIBRE S.R.L. — Internal Systems LATAM Coordinator"
         image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
-        phone: "+598 96 747 369"
         social:
           - url: https://www.linkedin.com/in/fernando-ghiorsi-16829038/
             icon: fab fa-linkedin-in
@@ -341,7 +333,6 @@ es: &DEFAULT_ES
       - name: "Jonathan Miño"
         role: "GRUPO ASSA S.A. — Scheduling Team Supervisor"
         image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
-        phone: "+54 9 11 3087-5224"
         social:
           - url: https://www.linkedin.com/in/jonathan-mi%C3%B1o-45283579/
             icon: fab fa-linkedin-in
@@ -349,7 +340,6 @@ es: &DEFAULT_ES
       - name: "Javier Deheza"
         role: "CIDICOM S.A. — Software Development Supervisor"
         image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
-        phone: "+54 9 11 6300-8764"
         social:
           - url: https://www.linkedin.com/in/javier-deheza-cdmp-cbip-20407151/
             icon: fab fa-linkedin-in
