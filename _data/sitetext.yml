@@ -165,7 +165,7 @@ en-AU:
 es: &DEFAULT_ES
   header:
     title: ¡Bienvenido a mi Portafolio!
-    text: Emmanuel Martín Chernis - Especialista en DevOps
+    text: Emmanuel Martín Chernis - Ingeniero DevOps
     button: Saber Más
     buttonlink: "#about"
 
@@ -222,8 +222,8 @@ es: &DEFAULT_ES
 
   about:
     title: "Sobre Mí"
-    text: "DevOps Certificado"
-    body: "DevOps certificado con amplia experiencia en automatización, escalabilidad y seguridad de sistemas en la nube. Apasionado por aplicar mejores prácticas y optimizar el ciclo de vida del software mediante soluciones ágiles y robustas. Especialista en AWS, CI/CD, monitoreo y liderazgo técnico."
+    text: "Ingeniero DevOps"
+    body: "Ingeniero DevOps con amplia experiencia en automatización, escalabilidad y seguridad de sistemas en la nube. Apasionado por aplicar mejores prácticas y optimizar el ciclo de vida del software mediante soluciones ágiles y robustas. Especialista en AWS, CI/CD, monitoreo y liderazgo técnico."
     section: nosotros
 
   clients:
@@ -239,7 +239,7 @@ es: &DEFAULT_ES
         logo: assets/img/clients/designmodo.jpg
       - title: "MercadoLibre"
         url: https://www.mercadolibre.com
-        logo: assets/img/clients/themeforest.jpg
+        logo: assets/img/clients/mercadolibre.png
       - title: "Grupo Assa"
         url: https://www.grupoassa.com
         logo: assets/img/clients/envato.jpg
@@ -251,14 +251,14 @@ es: &DEFAULT_ES
     section: equipo
     people:
       - name: "Emmanuel Martín Chernis"
-        role: "Ingeniero DevOps Certificado en AWS"
+        role: "Ingeniero DevOps con experiencia en AWS"
         image: assets/img/team/2.gif
         social:
           - url: https://ar.linkedin.com/in/echernis
             icon: fab fa-linkedin-in
           - url: https://github.com/e-chernis
             icon: fab fa-github
-        bio: "DevOps certificado con experiencia en AWS, automatización, CI/CD y monitoreo. Trabajo actualmente en Redbee Studios, con proyectos en seguridad de pagos y billeteras virtuales. Apasionado por la tecnología y el aprendizaje continuo."
+        bio: "Ingeniero DevOps con experiencia en AWS, automatización, CI/CD y monitoreo. Trabajo actualmente en Redbee Studios, con proyectos en seguridad de pagos y billeteras virtuales. Apasionado por la tecnología y el aprendizaje continuo."
 
   contact:
     title: "Contáctame"
