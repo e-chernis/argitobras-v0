@@ -2,9 +2,8 @@
 layout: page
 title: Privacy Policy
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
+
+## Privacy Policy
 
 This Privacy Policy describes how your personal information is collected, used, and shared when you visit this portfolio website (the "Site").
 
