@@ -36,6 +36,11 @@ html, body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
 }
 
+.section-dropdown .section-dropdown-toggle:focus-visible {
+  outline: 3px solid #38bdf8;
+  outline-offset: 2px;
+}
+
 .section-dropdown .dropdown-menu {
   min-width: 14rem;
   margin-top: 0.55rem;
