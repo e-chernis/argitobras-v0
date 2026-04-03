@@ -24,10 +24,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización.">
 <meta name="author" content="Emmanuel Martín Chernis">
+<meta name="color-scheme" content="dark light">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <link rel="canonical" href="https://www.argitobras.com.ar/">
+
+<script>
+  (function () {
+	var storageKey = 'argitobras-theme';
+	var theme = 'dark';
+
+	try {
+	  var saved = window.localStorage.getItem(storageKey);
+	  if (saved === 'light' || saved === 'dark') {
+		theme = saved;
+	  }
+	} catch (e) {
+	  theme = 'dark';
+	}
+
+	document.documentElement.setAttribute('data-theme', theme);
+	document.documentElement.style.colorScheme = theme;
+  }());
+</script>
 
 <title>Emmanuel Martín Chernis | Ingeniero DevOps</title>
 
@@ -51,6 +71,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container-fluid px-3 px-lg-4 d-flex justify-content-start align-items-center">
+        <div class="d-flex align-items-center flex-wrap nav-actions">
         <div class="dropdown section-dropdown">
           <button class="btn btn-outline-light section-dropdown-toggle dropdown-toggle js-scroll-trigger" type="button" id="sectionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Abrir menú de secciones">
             <i class="fas fa-stream mr-2"></i>Secciones
@@ -74,6 +95,11 @@
             <a class="dropdown-item js-scroll-trigger" href="#contacto">Contacto</a>
             
           </div>
+        </div>
+        <button class="btn btn-outline-light theme-toggle-button" type="button" data-theme-toggle aria-label="Cambiar tema">
+          <i class="fas fa-moon mr-2" data-theme-icon aria-hidden="true"></i>
+          <span data-theme-label>Modo claro</span>
+        </button>
         </div>
       </div>
     </nav>
@@ -1054,6 +1080,7 @@
     <script src="/assets/js/jqBootstrapValidation.js"></script>
     <script src="/assets/js/contact_me.js"></script>
     <script src="/assets/js/agency.min.js"></script>
+    <script src="/assets/js/theme-toggle.js"></script>
   </body>
 </html>
 
