@@ -262,9 +262,23 @@ es: &DEFAULT_ES
     subtext: ""
     section: equipo
     people:
+      - name: "Federico Ignacio Ibarra Berardi"
+        role: "Backend Software Developer"
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
+        social:
+          - url: https://www.linkedin.com/in/federico-ibarra-berardi
+            icon: fab fa-linkedin-in
+        bio: "Tuve la suerte de trabajar con Emmanuel en el mismo equipo. Es una persona con mucho conocimiento, pragmática y con muy buena onda. Siempre está dispuesto a dar una mano y ayudar en lo que se necesita. Lo recomiendo completamente para cualquier equipo que quiera llevar su infraestructura al siguiente nivel."
+      - name: "Santiago Sola"
+        role: "BI Specialist"
+        image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
+        social:
+          - url: https://ar.linkedin.com
+            icon: fab fa-linkedin-in
+        bio: "Emmanuel es un excelente profesional IT. Más allá de la perseverancia y el compromiso, siempre estuvo dispuesto a ayudar y resolver necesidades del área. También investigamos juntos planes de mejora para el sector, siempre con foco en resultados."
       - name: "Miguel José Guevara Atencio"
         role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
-        image: assets/img/team/1.gif
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 264 419-6203"
         social:
           - url: https://www.linkedin.com/in/migueljguevara/
@@ -272,7 +286,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral de liderazgo técnico durante proyectos de ingeniería y operación de plataformas críticas."
       - name: "Fabian Agüero"
         role: "REDBEE STUDIOS S.A. — Ex Engineer Manager"
-        image: assets/img/team/2.gif
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 11 3448-1956"
         social:
           - url: https://www.linkedin.com/in/faguero/
@@ -280,13 +294,13 @@ es: &DEFAULT_ES
         bio: "Referencia laboral de gestión y acompañamiento en equipos de ingeniería."
       - name: "Javier Ulrich"
         role: "REDBEE STUDIOS S.A. — Cliente 3D Secure/CVV Dinámico (IT Leader)"
-        image: assets/img/team/1.gif
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 11 5939-4117"
         social: []
         bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
       - name: "Gabriel Palacios"
         role: "REDBEE STUDIOS S.A. — Cliente TodoPago/BIMO (Ex IT Leader)"
-        image: assets/img/team/2.gif
+        image: https://cessi.org.ar/wp-content/uploads/2025/05/redbee.png.webp
         phone: "+54 9 221 599-9998"
         social:
           - url: https://www.linkedin.com/in/gpalacios-link/
@@ -294,7 +308,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral de cliente en productos de billetera digital y operación de servicios críticos."
       - name: "Javier Gutierrez"
         role: "BALANZ CAPITAL VALORES S.A.U. — Software Development Supervisor"
-        image: assets/img/team/1.gif
+        image: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
         phone: "+54 9 11 3211-3247"
         social:
           - url: https://www.linkedin.com/in/javier-gutierrez-80597619/
@@ -302,7 +316,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral en gestión de desarrollo de software y coordinación técnica."
       - name: "Damian Fantini"
         role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
-        image: assets/img/team/2.gif
+        image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         phone: "+54 9 11 4084-7354"
         social:
           - url: https://www.linkedin.com/in/damian-fantini-0366755/
@@ -310,7 +324,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral en soporte y operación de sistemas internos."
       - name: "Ignacio Ezequiel Benitez"
         role: "MERCADOLIBRE S.R.L. — Ex Internal Systems Supervisor"
-        image: assets/img/team/1.gif
+        image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         phone: "+54 9 11 5830-3281"
         social:
           - url: https://www.linkedin.com/in/ignacio-ezequiel-benitez-69367410b/
@@ -318,7 +332,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral en procesos de infraestructura y soporte corporativo."
       - name: "Fernando Ghiorsi"
         role: "MERCADOLIBRE S.R.L. — Internal Systems LATAM Coordinator"
-        image: assets/img/team/2.gif
+        image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
         phone: "+598 96 747 369"
         social:
           - url: https://www.linkedin.com/in/fernando-ghiorsi-16829038/
@@ -326,7 +340,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral regional para coordinación operativa LATAM."
       - name: "Jonathan Miño"
         role: "GRUPO ASSA S.A. — Ex Scheduling Team Supervisor"
-        image: assets/img/team/1.gif
+        image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
         phone: "+54 9 11 3087-5224"
         social:
           - url: https://www.linkedin.com/in/jonathan-mi%C3%B1o-45283579/
@@ -334,7 +348,7 @@ es: &DEFAULT_ES
         bio: "Referencia laboral en planificación operativa y coordinación de equipo."
       - name: "Javier Deheza"
         role: "CIDICOM S.A. — Ex Software Development Supervisor"
-        image: assets/img/team/2.gif
+        image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
         phone: "+54 9 11 6300-8764"
         social:
           - url: https://www.linkedin.com/in/javier-deheza-cdmp-cbip-20407151/

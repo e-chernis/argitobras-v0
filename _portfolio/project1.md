@@ -1,5 +1,5 @@
 ---
-title: CVV dinámico
+title: CVV2 dinámico
 subtitle: Seguridad avanzada para transacciones online.
 image: assets/img/clients/prisma-card.png
 alt: CVV
@@ -10,10 +10,10 @@ caption:
   thumbnail: assets/img/clients/prisma-card.png
 ---
 ## Descripción Detallada
-Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios, enfocándome en la protección contra fraudes en transacciones en línea. El proyecto involucró la integración de sistemas de verificación en tiempo real para generar CVV únicos por transacción.
+Implementé soluciones de seguridad para autenticación de pagos dinámicos en Redbee Studios, enfocándome en la protección contra fraudes en transacciones en línea. El proyecto involucró la integración de sistemas de verificación en tiempo real para generar **CVV2 dinámicos** por transacción.
 
 ## Valor funcional
-- El **CVV2 Dinámico** incrementa la seguridad porque el código se actualiza constantemente, reduciendo riesgo de fraude.
+- El **CVV2 dinámico** incrementa la seguridad porque el código se actualiza constantemente, reduciendo riesgo de fraude.
 - La generación del CVV2 es automática y se asocia a factores de identidad del cliente (celular, documento y clave personal).
 - Este enfoque mejora protección sin exigir pasos innecesarios en cada operación.
 

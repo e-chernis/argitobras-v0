@@ -1,13 +1,13 @@
 ---
 title: 3D Secure
 subtitle: Autenticación inteligente para compras online.
-image: https://www.condusef.gob.mx/imagenes/comercio/seguridad-3dsecure.png
+image: assets/img/clients/prisma-card.png
 alt: 3D Secure
 
 caption:
   title: 3D Secure
   subtitle: Seguridad y conversión en e-commerce
-  thumbnail: https://www.condusef.gob.mx/imagenes/comercio/seguridad-3dsecure.png
+  thumbnail: assets/img/clients/prisma-card.png
 ---
 Implementé y operé integraciones de **3D Secure** para fortalecer la seguridad de compras en línea sin perder foco en la experiencia del usuario.
 
