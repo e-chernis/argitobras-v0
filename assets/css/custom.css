@@ -51,7 +51,7 @@ header.masthead .intro-text {
   flex-wrap: wrap;
   gap: clamp(0.35rem, 1.5vw, 0.55rem) clamp(0.75rem, 2.5vw, 1.25rem);
   text-align: center;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.28) 0%, rgba(15, 23, 42, 0.2) 100%) !important;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, rgba(15, 23, 42, 0.12) 100%) !important;
   border: 1px solid rgba(148, 163, 184, 0.28) !important;
   backdrop-filter: blur(4px);
   box-sizing: border-box;
@@ -93,7 +93,7 @@ header.masthead .btn {
   header.masthead .intro-text {
     gap: 0.25rem 0.5rem;
     padding: 0.65rem clamp(0.6rem, 1.5vw, 0.9rem);
-    background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.32) 100%) !important;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.26) 0%, rgba(15, 23, 42, 0.2) 100%) !important;
   }
 
   header.masthead .intro-heading {
@@ -503,3 +503,92 @@ label[for="phone"],
     transform: scale(1.18);
   }
 }
+
+/* Portfolio cards */
+.portfolio-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+
+.portfolio-card__img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  object-position: center;
+  padding: 1rem;
+  background: #fff;
+}
+
+.portfolio-card__body {
+  padding: 1rem 1rem 1.1rem;
+}
+
+.portfolio-card__title {
+  margin: 0;
+  font-size: 1.06rem;
+  line-height: 1.35;
+}
+
+.portfolio-card__subtitle {
+  margin: 0.4rem 0 0;
+  color: #64748b;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+/* Reference cards */
+.team-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  padding: 1.15rem 1.2rem;
+}
+
+.team-card__head {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.team-card__img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.team-card__name {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.team-card__role {
+  margin: 0.25rem 0 0;
+  color: #64748b;
+  font-size: 0.92rem;
+}
+
+.team-card__bio {
+  margin: 0.85rem 0 0;
+  color: #334155;
+  line-height: 1.7;
+}
+
+/* Client logos */
+.client-logo {
+  width: 100%;
+  height: 84px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (max-width: 767.98px) {
+  .client-logo {
+    height: 96px;
+  }
+}
+
