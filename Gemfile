@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
+gem "sass-embedded", "= 1.69.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

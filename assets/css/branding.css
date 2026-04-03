@@ -10,6 +10,25 @@ html, body {
   text-transform: none;
 }
 
+.section-dropdown {
+  margin-left: 0.75rem;
+}
+
+.section-dropdown .dropdown-toggle {
+  white-space: nowrap;
+}
+
+.section-dropdown .dropdown-menu {
+  min-width: 11rem;
+}
+
+@media (max-width: 991.98px) {
+  .section-dropdown {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
 header.masthead .intro-heading,
 header.masthead .intro-heading p,
 header.masthead .intro-lead-in,
@@ -24,8 +43,8 @@ header.masthead .intro-heading p {
   text-transform: none;
 }
 
-#nosotros,
-#about {
+section.page-section[id],
+header.masthead {
   scroll-margin-top: 90px;
 }
 
