@@ -236,19 +236,19 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: ""
     list:
-      - title: "Redbee Studios"
-        url: https://www.redbeestudios.com
+      - title: "Redbee"
+        url: https://redbee.io
         logo: assets/img/clients/redbee-card.png
-      - title: "Balanz Capital"
+      - title: "Balanz"
         url: https://www.balanz.com
         logo: assets/img/clients/balanz-card.png
       - title: "MercadoLibre"
-        url: https://www.mercadolibre.com
+        url: https://www.mercadolibre.com.ar
         logo: assets/img/clients/mercadolibre-card.png
       - title: "Grupo Assa"
         url: https://www.grupoassa.com
         logo: assets/img/clients/grupoassa-card.png
-      - title: "CidicOM"
+      - title: "Cidicom"
         url: https://cidi.com.ar
         logo: assets/img/clients/cidicom-card.png
       - title: "Prisma"
@@ -258,8 +258,11 @@ es: &DEFAULT_ES
         url: https://www.todopago.com.ar/bimo
         logo: assets/img/clients/bimo-card.png
       - title: "3D Secure"
-        url: https://www.visa.com.ar/run-your-business/small-business-tools/payment-technology/visa-secure.html
+        url: https://www.visa.com.ar
         logo: assets/img/clients/3dsecure-card.png
+      - title: "TodoPago"
+        url: https://www.todopago.com.ar
+        logo: assets/img/clients/todopago-card.png
 
   team:
     title: "Sobre Mí"

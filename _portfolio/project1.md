@@ -1,11 +1,11 @@
 ---
-title: CVV Dinámico
+title: CVV
 subtitle: Seguridad y autenticación de pagos.
 image: assets/img/portfolio/cvv2d.jpg
-alt: CVV Dinámico
+alt: CVV
 
 caption:
-  title: CVV Dinámico
+  title: CVV
   subtitle: Seguridad de Pagos
   thumbnail: assets/img/portfolio/cvv2d.jpg
 ---

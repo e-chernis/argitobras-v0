@@ -13,5 +13,5 @@ Desarrollé protocolos 3D Secure para autenticación de transacciones en línea.
 
 {:.list-inline}
 - Fecha: Julio 2021 - Presente
-- Cliente: Redbee Studios
+- Cliente: Ecosistema Visa / Prisma
 - Categoría: Seguridad IT
