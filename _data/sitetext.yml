@@ -115,7 +115,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Me"
-    text: "Let's connect for opportunities or collaborations."
+    text: "For privacy, contact is handled through professional profiles rather than public email or a direct form."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -361,7 +361,7 @@ es: &DEFAULT_ES
 
   contact:
     title: "Contáctame"
-    text: "Conectemos para oportunidades o colaboraciones. Contacto personal (trabajos): echernis@argitobras.com.ar | Soporte: soporte@argitobras.com.ar | LinkedIn: ar.linkedin.com/in/echernis"
+    text: "Para preservar la privacidad, el contacto se realiza por perfiles profesionales y no mediante correo público o formulario directo."
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."

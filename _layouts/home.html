@@ -269,42 +269,26 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" action="https://formspree.io/{{ site.email }}" novalidate="novalidate" method="POST">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input name="name" class="form-control" id="name" type="text" placeholder="{{ t.contact.name }}" required="required" data-validation-required-message="{{ t.contact.name-validation }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group d-none">
-                    <input name="username" class="form-control" id="username" type="text" tabindex="-1" autocomplete="off">
-                  </div>
-                  <div class="form-group">
-                    <input name="_replyto" class="form-control" id="email" type="email" placeholder="{{ t.contact.email }}" required="required" data-validation-required-message="{{ t.contact.email-validation }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="{{ t.contact.phone }}" data-validation-required-message="{{ t.contact.phone-validation }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea name="message" class="form-control" id="message" placeholder="{{ t.contact.message }}" required="required" data-validation-required-message="{{ t.contact.message-validation }}"></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <input type="hidden" name="_subject" id="email-subject" value="{{ t.contact.subject }}">
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{ t.contact.submit }}</button>
-                </div>
-                <input type="text" name="_gotcha" style="display:none">
-                <input type="hidden" name="_next" value="#" />
+          <div class="col-lg-10 mx-auto">
+            <div class="contact-card">
+              <p class="contact-card__copy">
+                Por privacidad, no utilizo formulario directo ni expongo un correo público en el sitio.
+                Si querés contactarme, usá mis perfiles profesionales.
+              </p>
+              <div class="contact-card__actions">
+                {% for network in t.profile.social %}
+                {% assign contact_label = 'Perfil' %}
+                {% if network.icon contains 'linkedin' %}
+                {% assign contact_label = 'LinkedIn' %}
+                {% elsif network.icon contains 'github' %}
+                {% assign contact_label = 'GitHub' %}
+                {% endif %}
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
+                  <i class="{{ network.icon }} mr-2"></i>{{ contact_label }}
+                </a>
+                {% endfor %}
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -339,8 +323,6 @@
     <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/jquery.easing.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/jqBootstrapValidation.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/contact_me.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   </body>

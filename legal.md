@@ -10,7 +10,7 @@ Esta Política de Privacidad describe cómo se recopila, utiliza, conserva y pro
 
 ### Responsable del tratamiento
 
-El responsable del tratamiento de los datos es Emmanuel Martín Chernis. Para consultas vinculadas con privacidad, puede contactarse por correo electrónico en <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+El responsable del tratamiento de los datos es Emmanuel Martín Chernis. Para consultas vinculadas con privacidad, puede contactarse mediante los perfiles profesionales publicados en este sitio.
 
 ### Marco normativo aplicable
 
@@ -20,7 +20,7 @@ Esta política se redacta conforme a buenas prácticas de protección de datos p
 
 Este Sitio está pensado como un portafolio personal e informativo. En términos generales, no se recopilan datos personales de navegación con fines comerciales ni se venden datos personales a terceros.
 
-Podemos recibir información únicamente cuando usted decide comunicarse mediante el formulario de contacto o por correo electrónico. Esa información puede incluir:
+Podemos recibir información únicamente cuando usted decide comunicarse por los perfiles profesionales enlazados en el sitio. Esa información puede incluir:
 
 - Nombre y apellido
 - Dirección de correo electrónico
@@ -33,7 +33,7 @@ No se solicitan ni se tratan categorías especiales de datos personales.
 
 La base para el tratamiento de los datos enviados por usted es:
 
-- Su consentimiento, al enviar voluntariamente el formulario o correo
+- Su consentimiento, al iniciar voluntariamente el contacto por medios profesionales publicados
 - El interés legítimo de responder consultas profesionales y mantener comunicaciones vinculadas al objeto del contacto
 
 ### Finalidad del uso de la información
@@ -49,7 +49,6 @@ La información que usted envíe se utiliza exclusivamente para:
 Este sitio es un portafolio estático alojado sobre infraestructura de terceros. Para su funcionamiento pueden intervenir servicios externos como:
 
 - GitHub Pages, para alojamiento y publicación del sitio
-- Formspree, para la recepción del formulario de contacto
 - Google Fonts y recursos visuales externos, si están cargados por la página
 - Enlaces hacia servicios de terceros, como LinkedIn o sitios corporativos
 
@@ -57,7 +56,7 @@ Cada servicio externo puede tener su propia política de privacidad y condicione
 
 ### Transferencias internacionales
 
-Debido al uso de proveedores globales de infraestructura y formularios, parte del tratamiento técnico de la información puede realizarse en servidores ubicados fuera de Argentina. En esos casos, se procura utilizar proveedores reconocidos y prácticas razonables de seguridad.
+Debido al uso de proveedores globales de infraestructura y recursos externos, parte del tratamiento técnico de la información puede realizarse en servidores ubicados fuera de Argentina. En esos casos, se procura utilizar proveedores reconocidos y prácticas razonables de seguridad.
 
 ### Cookies y analítica
 
@@ -67,7 +66,7 @@ Si en el futuro se incorporara una herramienta de medición o analítica, esta p
 
 ### Conservación de la información
 
-La información enviada por el formulario de contacto se conservará únicamente durante el tiempo necesario para responder la consulta, atender la gestión correspondiente o cumplir obligaciones legales aplicables.
+La información recibida por medios de contacto profesionales se conservará únicamente durante el tiempo necesario para responder la consulta, atender la gestión correspondiente o cumplir obligaciones legales aplicables.
 
 ### Seguridad de la información
 
@@ -83,7 +82,7 @@ El sitio puede contener enlaces a páginas de terceros. No nos responsabilizamos
 
 ### Derechos del usuario
 
-Usted puede solicitar, cuando corresponda, el acceso, rectificación, actualización o eliminación de los datos personales proporcionados, escribiendo a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Usted puede solicitar, cuando corresponda, el acceso, rectificación, actualización o eliminación de los datos personales proporcionados mediante los canales profesionales publicados en el sitio.
 
 También puede solicitar limitación u oposición al tratamiento cuando sea aplicable.
 
@@ -95,4 +94,4 @@ Esta política puede actualizarse en cualquier momento por motivos operativos, l
 
 ### Contacto
 
-Si tiene dudas sobre esta Política de Privacidad o sobre el tratamiento de la información, puede escribir a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Si tiene dudas sobre esta Política de Privacidad o sobre el tratamiento de la información, puede usar los perfiles profesionales publicados en el sitio para iniciar el contacto.
