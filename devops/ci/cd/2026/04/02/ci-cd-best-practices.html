@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Mejores Prácticas en CI/CD con Jenkins y GitLab CI | Emmanuel Martín Chernis Ingeniero DevOps</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Mejores Prácticas en CI/CD con Jenkins y GitLab CI" />
+<meta name="author" content="Emmanuel Martín Chernis" />
+<meta property="og:locale" content="es" />
+<meta name="description" content="En el mundo del DevOps, la integración y entrega continua (CI/CD) es fundamental para acelerar el desarrollo y mejorar la calidad del software. En este post, comparto algunas mejores prácticas basadas en mi experiencia implementando pipelines en Jenkins y GitLab CI." />
+<meta property="og:description" content="En el mundo del DevOps, la integración y entrega continua (CI/CD) es fundamental para acelerar el desarrollo y mejorar la calidad del software. En este post, comparto algunas mejores prácticas basadas en mi experiencia implementando pipelines en Jenkins y GitLab CI." />
+<link rel="canonical" href="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html" />
+<meta property="og:url" content="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html" />
+<meta property="og:site_name" content="Emmanuel Martín Chernis Ingeniero DevOps" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-02T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Mejores Prácticas en CI/CD con Jenkins y GitLab CI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Emmanuel Martín Chernis"},"dateModified":"2026-04-02T00:00:00+00:00","datePublished":"2026-04-02T00:00:00+00:00","description":"En el mundo del DevOps, la integración y entrega continua (CI/CD) es fundamental para acelerar el desarrollo y mejorar la calidad del software. En este post, comparto algunas mejores prácticas basadas en mi experiencia implementando pipelines en Jenkins y GitLab CI.","headline":"Mejores Prácticas en CI/CD con Jenkins y GitLab CI","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html"},"url":"https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html"}</script>
+<!-- End Jekyll SEO tag -->
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización.">
-  <meta name="author" content="Emmanuel Martín Chernis">
-  <link rel="canonical" href="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html">
 
-  <title>Mejores Prácticas en CI/CD con Jenkins y GitLab CI | Emmanuel Martín Chernis | Ingeniero DevOps</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización.">
+<meta name="author" content="Emmanuel Martín Chernis">
+<link rel="canonical" href="https://www.argitobras.com.ar/devops/ci/cd/2026/04/02/ci-cd-best-practices.html">
 
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<title>Mejores Prácticas en CI/CD con Jenkins y GitLab CI | Emmanuel Martín Chernis | Ingeniero DevOps</title>
 
-  <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-  
-    
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    
-      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
-    
-      <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-    
-  
-  <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet" />
+<!-- Bootstrap core CSS -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Page container change top padding when nav shrinks -->
-  
-  <style>
-    #pagecontainer {
-      padding-top: 150px;
-    }
-    @media only screen and (max-width: 991px) {
-      #pagecontainer {
-        padding-top: 100px;
-      }
-    }
-  </style>
-  
-</head>
+<!-- Custom fonts for this template -->
+<link href="/assets/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" type="text/css">
+
+<!-- Custom styles for this theme -->
+<link href="/assets/css/agency.css" rel="stylesheet" />
+<link href="/assets/css/branding.css" rel="stylesheet" />
+
 
 
   <body id="page-top">
@@ -73,34 +71,28 @@
       <ul class="navbar-nav text-uppercase ml-auto">
       <li class="nav-item"><a
             class="nav-link js-scroll-trigger"
-            href="/#about"
+            href="/#nosotros"
             >Sobre Mí</a
           ></li><li class="nav-item"><a
             class="nav-link js-scroll-trigger"
-            href="/#timeline"
+            href="/#cronologia"
             >Experiencia</a
           ></li><li class="nav-item"><a
             class="nav-link js-scroll-trigger"
-            href="/#services"
+            href="/#servicios"
             >Habilidades</a
           ></li><li class="nav-item"><a
             class="nav-link js-scroll-trigger"
-            href="/#portfolio"
+            href="/#portafolio"
             >Portafolio</a
-          ></li><li class="nav-item"><a
-            class="nav-link js-scroll-trigger"
-            href="/#posts"
-            >Blog</a
           ></li><li class="nav-item"><a
             class="nav-link js-scroll-trigger"
             href="/#education"
             >Educación</a
           ></li><li class="nav-item"><a
             class="nav-link js-scroll-trigger"
-            href="/#contact"
+            href="/#contacto"
             >Contacto</a
-          ></li><li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://github.com/raviriley/agency-jekyll-theme/"
-            >Fuente de la plantilla</a
           ></li>
       </ul>
     </div>
