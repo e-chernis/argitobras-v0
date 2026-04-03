@@ -206,7 +206,7 @@ es: &DEFAULT_ES
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
         desc: "Implementamos e integramos herramientas de automatización para la entrega continua de servicios y desarrollos, optimizando flujos de trabajo tanto para equipos de desarrollo como para áreas administrativas. Gestionamos la infraestructura sobre Linux, abarcando provisión, configuración, mantenimiento y monitoreo de servicios críticos."
-        image: assets/img/clients/balanz-timeline.png
+        image: assets/img/clients/balanz-card.png
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
@@ -216,7 +216,7 @@ es: &DEFAULT_ES
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
         desc: "Inicié mi trayectoria como administrador de bases de datos en MS-SQL Server 2008 y 2012, asegurando la operatividad del cliente mediante la ejecución y optimización de consultas hasta la finalización del servicio. Posteriormente, me integré a un equipo de desarrollo, donde mi enfoque se trasladó a la automatización de procesos en entornos UNIX y Windows Server."
-        image: assets/img/clients/grupoassa-timeline.png
+        image: assets/img/clients/grupoassa-card.png
         alt: Grupo Assa
       - title: "Desarrollador Java en CidicOM"
         year: "Febrero 2015 - Julio 2015"
@@ -227,8 +227,8 @@ es: &DEFAULT_ES
 
   about:
     title: "Sobre Mí"
-    text: "Ingeniero DevOps"
-    body: "Soy Ingeniero DevOps certificado en AWS, con foco en automatización, confiabilidad y escalabilidad de plataformas críticas. Me especializo en diseño de infraestructura cloud, pipelines CI/CD, observabilidad y prácticas SRE para mejorar tiempos de entrega, estabilidad y seguridad. Trabajo de forma colaborativa con equipos de desarrollo y negocio para transformar necesidades en soluciones simples, medibles y sostenibles."
+    text: "Ingeniero DevOps certificado en AWS"
+    body: "Soy Ingeniero DevOps con experiencia en AWS, automatización, CI/CD, observabilidad y seguridad de plataformas críticas. Me enfoco en diseñar soluciones escalables y mantenibles que mejoren la estabilidad, reduzcan tiempos de entrega y acompañen la evolución de los equipos de desarrollo y negocio."
     section: nosotros
 
   clients:
@@ -236,41 +236,41 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: ""
     list:
-      - title: "Redbee"
-        url: https://redbee.io/
-        logo: assets/img/clients/redbee-card.png
       - title: "Balanz"
         url: https://balanz.com/
         logo: assets/img/clients/balanz-card.png
-      - title: "MercadoLibre"
-        url: https://mercadolibre.com.ar/
-        logo: assets/img/clients/mercadolibre-card.png
-      - title: "Grupo Assa"
-        url: https://www.grupoassa.com/
-        logo: assets/img/clients/grupoassa-card.png
       - title: "Cidicom"
         url: https://cidi.com.ar/
         logo: assets/img/clients/cidicom-card.png
-      - title: "Prisma"
-        url: https://www.prismamediosdepago.com/
-        logo: assets/img/clients/prisma-card.png
-      - title: "Visa"
-        url: https://www.visa.com.ar/
-        logo: assets/img/clients/3dsecure-card.png
+      - title: "Grupo Assa"
+        url: https://www.grupoassa.com/
+        logo: assets/img/clients/grupoassa-card.png
+      - title: "MercadoLibre"
+        url: https://mercadolibre.com.ar/
+        logo: assets/img/clients/mercadolibre-card.png
+      - title: "Redbee"
+        url: https://redbee.io/
+        logo: assets/img/clients/redbee-card.png
       - title: "BIMO"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/bimo-card.png
+      - title: "Visa"
+        url: https://www.visa.com.ar/
+        logo: assets/img/clients/3dsecure-card.png
       - title: "TodoPago"
         url: https://www.visa.com.ar/
         logo: assets/img/clients/todopago-card.png
+      - title: "Prisma"
+        url: https://www.prismamediosdepago.com/
+        logo: assets/img/clients/prisma-card.png
       - title: "CVV"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/cvv-card.png
 
   team:
-    title: "Sobre Mí"
-    text: "Emmanuel Martín Chernis"
-    subtext: Información personal y profesional.
+    title: "Testimonios y recomendaciones"
+    text: "Lo que dicen colegas y referentes de trabajo."
+    subtext: Información personal y profesional resumida en recomendaciones.
     section: equipo
     people:
       - name: "Emmanuel Martín Chernis"
@@ -308,21 +308,31 @@ es: &DEFAULT_ES
 
   education:
     title: "Educación"
-    text: "Formación académica y certificaciones."
+    text: "Formación académica, certificaciones y estudios en curso."
     section: education
     events:
-      - title: "Diplomatura en Seguridad de la Información"
+      - title: "Técnico en informática personal y profesional"
+        year: "2007-2014"
+        desc: "Escuela de Educación Secundaria Técnica (E.E.S.T) N°7 “José Hernández (Ex E.N.E.T.)”."
+        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+        alt: EEST N°7
+      - title: "Con certificación - Desarrollo de software para TV Digital"
+        year: "2014-2015"
+        desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
+        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+        alt: ITB
+      - title: "Diplomatura en Seguridad de la información"
         year: "2016-2017"
         desc: "Extensión Universitaria - Universidad Tecnológica Nacional (UTN)."
         image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
         alt: UTN
-      - title: "Técnico en Informática Personal y Profesional"
-        year: "2007-2014"
-        desc: "Escuela de Educación Secundaria Técnica (E.E.S.T) N°7 'José Hernández'."
+      - title: "Con certificación - AWS DevOps Engineer Professional (DOP-C02)"
+        year: "2023-2023"
+        desc: "AWS Training and Certification — Credly: https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile — Verificación: aws.amazon.com/verification X8V2P0310BE411GY."
         image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
-        alt: EEST
-      - title: "Certificaciones Adicionales"
-        year: "2014-2023"
-        desc: "AWS DevOps Engineer Professional (DOP-C02), Kubernetes Fundamentals (LFS258), Desarrollo de software para TV Digital, Arduino - Robótica básica."
+        alt: AWS Certification
+      - title: "En curso - Técnico superior en ciencia de datos e inteligencia artificial"
+        year: "2026-2029"
+        desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
         image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
-        alt: Certificaciones
+        alt: Data Science en curso

@@ -1,17 +1,17 @@
 ---
-title: Automatizacion Operativa en Grupo Assa
+title: Automatización Operativa en Grupo Assa
 subtitle: Soporte IT, bases de datos y procesos.
-image: assets/img/portfolio/grupoassa-logo.png
+image: assets/img/clients/grupoassa-card.png
 alt: Grupo Assa
 
 caption:
   title: Grupo Assa
-  subtitle: Automatizacion IT
-  thumbnail: assets/img/portfolio/grupoassa-logo.png
+  subtitle: Automatización IT
+  thumbnail: assets/img/clients/grupoassa-card.png
 ---
-En Grupo Assa participe en tareas de administracion de bases MS-SQL Server y evolucion hacia automatizacion de procesos en entornos UNIX y Windows Server, enfocando la mejora operativa y la continuidad del servicio.
+En Grupo Assa participé en tareas de administración de bases MS-SQL Server y evolucioné hacia la automatización de procesos en entornos UNIX y Windows Server, enfocándome en la mejora operativa y la continuidad del servicio.
 
 {:.list-inline}
 - Fecha: Julio 2015 - Junio 2017
 - Cliente: Grupo Assa
-- Categoria: Soporte y Automatizacion
+- Categoría: Soporte y Automatización
