@@ -25,6 +25,10 @@
     </nav>
 
     <header class="masthead">
+      <video autoplay muted loop playsinline>
+        <source src="{{ '/assets/img/header-bg.mp4' | relative_url }}" type="video/mp4">
+        Tu navegador no soporta video HTML5
+      </video>
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">{{ t.header.title | markdownify }}</div>
