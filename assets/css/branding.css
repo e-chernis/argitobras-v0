@@ -1,4 +1,8 @@
 /* Professional typography overrides for navbar brand and hero title */
+html, body {
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 .navbar-brand {
   font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-weight: 700;
@@ -20,6 +24,8 @@ header.masthead .intro-heading p {
   text-transform: none;
 }
 
-#equipo {
-  display: none !important;
+#nosotros,
+#about {
+  scroll-margin-top: 90px;
 }
+
