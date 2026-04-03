@@ -4,15 +4,21 @@ title: Política de Privacidad
 ---
 ## Política de Privacidad
 
-Esta Política de Privacidad describe cómo se recopila, utiliza, conserva y protege la información personal que usted pueda proporcionar al visitar este sitio web de portafolio.
+Esta Política de Privacidad describe cómo se recopila, utiliza, conserva y protege la información personal que usted pueda proporcionar al visitar este sitio web de portafolio (el "Sitio").
+
+Última actualización: 03/04/2026.
 
 ### Responsable del tratamiento
 
 El responsable del tratamiento de los datos es Emmanuel Martín Chernis. Para consultas vinculadas con privacidad, puede contactarse por correo electrónico en <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
+### Marco normativo aplicable
+
+Esta política se redacta conforme a buenas prácticas de protección de datos personales y contempla, en lo aplicable, la Ley 25.326 de Protección de Datos Personales (República Argentina) y principios internacionales de transparencia, finalidad y minimización de datos.
+
 ### Información que podemos recopilar
 
-Este sitio está pensado como un portafolio personal e informativo. En términos generales, no se recopilan datos personales de navegación con fines comerciales.
+Este Sitio está pensado como un portafolio personal e informativo. En términos generales, no se recopilan datos personales de navegación con fines comerciales ni se venden datos personales a terceros.
 
 Podemos recibir información únicamente cuando usted decide comunicarse mediante el formulario de contacto o por correo electrónico. Esa información puede incluir:
 
@@ -22,6 +28,13 @@ Podemos recibir información únicamente cuando usted decide comunicarse mediant
 - Mensaje o consulta enviada
 
 No se solicitan ni se tratan categorías especiales de datos personales.
+
+### Base legal y legitimación
+
+La base para el tratamiento de los datos enviados por usted es:
+
+- Su consentimiento, al enviar voluntariamente el formulario o correo
+- El interés legítimo de responder consultas profesionales y mantener comunicaciones vinculadas al objeto del contacto
 
 ### Finalidad del uso de la información
 
@@ -42,6 +55,10 @@ Este sitio es un portafolio estático alojado sobre infraestructura de terceros.
 
 Cada servicio externo puede tener su propia política de privacidad y condiciones de uso.
 
+### Transferencias internacionales
+
+Debido al uso de proveedores globales de infraestructura y formularios, parte del tratamiento técnico de la información puede realizarse en servidores ubicados fuera de Argentina. En esos casos, se procura utilizar proveedores reconocidos y prácticas razonables de seguridad.
+
 ### Cookies y analítica
 
 Este sitio no utiliza actualmente Google Analytics ni herramientas de seguimiento con fines publicitarios. En consecuencia, no se instalan cookies propias de analítica en la navegación normal del sitio.
@@ -56,6 +73,10 @@ La información enviada por el formulario de contacto se conservará únicamente
 
 Se aplican medidas razonables para proteger la información contra accesos no autorizados, alteración, divulgación o destrucción. Sin embargo, ningún sistema en Internet puede garantizar seguridad absoluta.
 
+### Menores de edad
+
+Este Sitio no está dirigido a menores de 18 años. No se busca recopilar intencionalmente datos personales de menores.
+
 ### Enlaces externos
 
 El sitio puede contener enlaces a páginas de terceros. No nos responsabilizamos por el contenido, las prácticas de privacidad o la disponibilidad de esos sitios externos.
@@ -63,6 +84,10 @@ El sitio puede contener enlaces a páginas de terceros. No nos responsabilizamos
 ### Derechos del usuario
 
 Usted puede solicitar, cuando corresponda, el acceso, rectificación, actualización o eliminación de los datos personales proporcionados, escribiendo a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+
+También puede solicitar limitación u oposición al tratamiento cuando sea aplicable.
+
+En Argentina, la Agencia de Acceso a la Información Pública (AAIP), órgano de control de la Ley 25.326, tiene la atribución de atender denuncias y reclamos vinculados al incumplimiento de normas sobre protección de datos personales.
 
 ### Cambios en esta política
 

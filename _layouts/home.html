@@ -279,7 +279,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="{{ t.contact.phone }}" required="required" data-validation-required-message="{{ t.contact.phone-validation }}">
+                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="{{ t.contact.phone }}" data-validation-required-message="{{ t.contact.phone-validation }}">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@
             <ul class="list-inline social-buttons">
               {% for network in t.footer.social %}
               <li class="list-inline-item">
-                <a href="{{ network.url }}"><i class="{{ network.icon }}"></i></a>
+                <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer"><i class="{{ network.icon }}"></i></a>
               </li>
               {% endfor %}
             </ul>
