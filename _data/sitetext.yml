@@ -252,6 +252,9 @@ es: &DEFAULT_ES
       - title: "BIMO"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/bimo-card.png
+      - title: "Visa Secure"
+        url: https://www.visa.com.ar/
+        logo: https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg
 
   team:
     title: "Testimonios y recomendaciones"
@@ -297,28 +300,28 @@ es: &DEFAULT_ES
     text: "Formación académica, certificaciones y estudios en curso."
     section: education
     events:
-      - title: "Técnico en informática personal y profesional"
-        year: "2007-2014"
-        desc: "Escuela de Educación Secundaria Técnica (E.E.S.T) N°7 “José Hernández (Ex E.N.E.T.)”."
-        image: assets/img/education/eest7.png
-        alt: EEST N°7
-      - title: "Desarrollo de software para TV Digital"
-        year: "2014-2015"
-        desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
-        image: assets/img/education/beltran.png
-        alt: Instituto Tecnológico Beltrán
-      - title: "Diplomatura en Seguridad de la información"
-        year: "2016-2017"
-        desc: "Extensión Universitaria - Universidad Tecnológica Nacional (UTN)."
-        image: assets/img/education/utn.png
-        alt: UTN
-      - title: "AWS DevOps Engineer Professional (DOP-C02)"
-        year: "2023-2023"
-        desc: "AWS Training and Certification — Credly: https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile — Verificación: aws.amazon.com/verification X8V2P0310BE411GY."
-        image: assets/img/education/aws-devops-pro.png
-        alt: AWS DevOps Engineer Professional
       - title: "En curso - Técnico superior en ciencia de datos e inteligencia artificial"
         year: "2026-2029"
         desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
         image: assets/img/education/beltran.png
         alt: Instituto Tecnológico Beltrán
+      - title: "AWS DevOps Engineer Professional (DOP-C02)"
+        year: "2023-2023"
+        desc: "AWS Training and Certification — Credly: https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile — Verificación: aws.amazon.com/verification X8V2P0310BE411GY."
+        image: assets/img/education/aws-devops-pro.png
+        alt: AWS DevOps Engineer Professional
+      - title: "Diplomatura en Seguridad de la información"
+        year: "2016-2017"
+        desc: "Extensión Universitaria - Universidad Tecnológica Nacional (UTN)."
+        image: assets/img/education/utn.png
+        alt: UTN
+      - title: "Desarrollo de software para TV Digital"
+        year: "2014-2015"
+        desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
+        image: assets/img/education/beltran.png
+        alt: Instituto Tecnológico Beltrán
+      - title: "Técnico en informática personal y profesional"
+        year: "2007-2014"
+        desc: "Escuela de Educación Secundaria Técnica (E.E.S.T) N°7 “José Hernández (Ex E.N.E.T.)”."
+        image: assets/img/education/eest7.png
+        alt: EEST N°7
