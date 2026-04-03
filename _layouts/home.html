@@ -144,13 +144,28 @@
             <h2 class="section-heading text-uppercase">Empresas para las cuales trabajé</h2>
           </div>
         </div>
-        <div class="row">
+
+        <div class="row mb-3">
           {% for client in t.clients.list %}
+          {% unless client.title == "Prisma" or client.title == "BIMO" or client.title == "TodoPago" or client.title == "Visa" or client.title == "CVV" %}
           <div class="col-md-3 col-sm-6">
             <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
             </a>
           </div>
+          {% endunless %}
+          {% endfor %}
+        </div>
+
+        <div class="row">
+          {% for client in t.clients.list %}
+          {% if client.title == "Prisma" or client.title == "BIMO" or client.title == "TodoPago" or client.title == "Visa" or client.title == "CVV" %}
+          <div class="col-md-3 col-sm-6">
+            <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
+            </a>
+          </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>

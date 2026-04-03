@@ -236,9 +236,6 @@ es: &DEFAULT_ES
     max-height: 100px
     horizontal-scrolling: ""
     list:
-      - title: "Balanz"
-        url: https://balanz.com/
-        logo: assets/img/clients/balanz-card.png
       - title: "Cidicom"
         url: https://cidi.com.ar/
         logo: assets/img/clients/cidicom-card.png
@@ -248,24 +245,27 @@ es: &DEFAULT_ES
       - title: "MercadoLibre"
         url: https://mercadolibre.com.ar/
         logo: assets/img/clients/mercadolibre-card.png
+      - title: "Balanz"
+        url: https://balanz.com/
+        logo: assets/img/clients/balanz-card.png
       - title: "Redbee"
         url: https://redbee.io/
         logo: assets/img/clients/redbee-card.png
-      - title: "BIMO"
-        url: https://www.prismamediosdepago.com/
-        logo: assets/img/clients/bimo-card.png
-      - title: "Visa"
-        url: https://www.visa.com.ar/
-        logo: assets/img/clients/3dsecure-card.png
-      - title: "TodoPago"
-        url: https://www.visa.com.ar/
-        logo: assets/img/clients/todopago-card.png
       - title: "Prisma"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/prisma-card.png
+      - title: "TodoPago"
+        url: https://www.visa.com.ar/
+        logo: assets/img/clients/todopago-card.png
+      - title: "BIMO"
+        url: https://www.prismamediosdepago.com/
+        logo: assets/img/clients/bimo-card.png
       - title: "CVV"
         url: https://www.prismamediosdepago.com/
         logo: assets/img/clients/cvv-card.png
+      - title: "Visa"
+        url: https://www.visa.com.ar/
+        logo: assets/img/clients/3dsecure-card.png
 
   team:
     title: "Testimonios y recomendaciones"
@@ -285,7 +285,7 @@ es: &DEFAULT_ES
 
   contact:
     title: "Contáctame"
-    text: "Conectemos para oportunidades o colaboraciones. Email: Emmanuel_Chernis@hotmail.com | LinkedIn: ar.linkedin.com/in/echernis"
+    text: "Conectemos para oportunidades o colaboraciones. Contacto personal (trabajos): echernis@argitobras.com.ar | Soporte: soporte@argitobras.com.ar | LinkedIn: ar.linkedin.com/in/echernis"
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
@@ -314,25 +314,25 @@ es: &DEFAULT_ES
       - title: "Técnico en informática personal y profesional"
         year: "2007-2014"
         desc: "Escuela de Educación Secundaria Técnica (E.E.S.T) N°7 “José Hernández (Ex E.N.E.T.)”."
-        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+        image: assets/img/education/eest7.png
         alt: EEST N°7
-      - title: "Con certificación - Desarrollo de software para TV Digital"
+      - title: "Desarrollo de software para TV Digital"
         year: "2014-2015"
         desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
-        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
-        alt: ITB
+        image: assets/img/education/beltran.png
+        alt: Instituto Tecnológico Beltrán
       - title: "Diplomatura en Seguridad de la información"
         year: "2016-2017"
         desc: "Extensión Universitaria - Universidad Tecnológica Nacional (UTN)."
-        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+        image: assets/img/education/utn.png
         alt: UTN
-      - title: "Con certificación - AWS DevOps Engineer Professional (DOP-C02)"
+      - title: "AWS DevOps Engineer Professional (DOP-C02)"
         year: "2023-2023"
         desc: "AWS Training and Certification — Credly: https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile — Verificación: aws.amazon.com/verification X8V2P0310BE411GY."
-        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
-        alt: AWS Certification
+        image: assets/img/education/aws-devops-pro.png
+        alt: AWS DevOps Engineer Professional
       - title: "En curso - Técnico superior en ciencia de datos e inteligencia artificial"
         year: "2026-2029"
         desc: "Instituto Superior de Formación Técnica N° 197 “Instituto Tecnológico Beltrán”."
-        image: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
-        alt: Data Science en curso
+        image: assets/img/education/beltran.png
+        alt: Instituto Tecnológico Beltrán

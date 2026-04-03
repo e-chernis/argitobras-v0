@@ -18,7 +18,7 @@ url    : "https://www.argitobras.com.ar" # Para tu dominio custom
 baseurl: "" # Sitio en la raíz del dominio
 
 title      : Emmanuel Martín Chernis | Ingeniero DevOps
-email      : Emmanuel_Chernis@hotmail.com # Replace with your actual email
+email      : echernis@argitobras.com.ar
 description: "Portafolio de Emmanuel Martín Chernis, Ingeniero DevOps con experiencia en AWS en redbee Studios. Expertise en DevOps, infraestructura cloud, CI/CD y automatización."
 author     : Emmanuel Martín Chernis
 keywords: "DevOps, AWS, Terraform, Kubernetes, CI/CD, Ingeniería de Software, Automatización, Monitoreo"
