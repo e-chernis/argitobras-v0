@@ -578,6 +578,12 @@ label[for="phone"],
   line-height: 1.7;
 }
 
+.team-card__phone {
+  margin: 0.6rem 0 0;
+  color: #0f172a;
+  font-size: 0.92rem;
+}
+
 .team-card__links {
   margin-top: 0.85rem;
   display: flex;
