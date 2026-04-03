@@ -176,6 +176,18 @@ es: &DEFAULT_ES
       - title: "Seguridad y Mejores Prácticas"
         desc: "Gestión de IAM, mTLS, Keycloak y buenas prácticas SRE/DevOps, trabajando bajo Scrum con documentación técnica en Jira y Confluence."
         icon: fas fa-shield-alt
+      - title: "Orquestación y Contenedores"
+        desc: "Administración de Kubernetes (EKS), Docker Swarm, despliegues con Helm, gestión de clústeres para alta disponibilidad y escalabilidad."
+        icon: fas fa-cube
+      - title: "Scripting y Automatización"
+        desc: "Desarrollo de scripts y automatización en Python, Bash, PowerShell, Go y Groovy; reducción de tareas repetitivas y optimización de flujos operativos."
+        icon: fas fa-code
+      - title: "Bases de datos y Cache"
+        desc: "Administración y optimización de PostgreSQL, MySQL, MariaDB, Redis, MongoDB, MS-SQL Server; garantizando disponibilidad, rendimiento y consistencia de datos."
+        icon: fas fa-database
+      - title: "Redes e Infraestructura"
+        desc: "Configuración de redes corporativas, VLAN, routing, switching, VPN, API Gateway con dominios personalizados, seguridad en tránsito (mTLS) y compliance."
+        icon: fas fa-network-wired
 
   portfolio:
     title: "Experiencia laboral"
@@ -294,7 +306,7 @@ es: &DEFAULT_ES
         role: "PRISMA MEDIOS DE PAGO — Cliente 3D Secure / CVV2 Dinámico (IT Leader)"
         image: assets/img/clients/prisma-card.png
         social:
-          - url: https://www.linkedin.com/in/javier-ulrich/
+          - url: https://www.linkedin.com/in/javier-ulrich-b3a5522/
             icon: fab fa-linkedin-in
         bio: "Referencia laboral de cliente en iniciativas de seguridad de pagos y autenticación dinámica."
       - name: "Gabriel Palacios"
