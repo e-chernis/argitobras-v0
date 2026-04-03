@@ -11,21 +11,38 @@ html, body {
 }
 
 .section-dropdown {
-  margin-left: 0.75rem;
+  margin-left: 0;
 }
 
-.section-dropdown .dropdown-toggle {
+.section-dropdown .section-dropdown-toggle {
   white-space: nowrap;
+  min-width: 8.75rem;
+  padding: 0.65rem 1.1rem;
+  border-width: 2px;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.section-dropdown .section-dropdown-toggle:hover,
+.section-dropdown .section-dropdown-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
 }
 
 .section-dropdown .dropdown-menu {
-  min-width: 11rem;
+  min-width: 12rem;
+  margin-top: 0.55rem;
 }
 
 @media (max-width: 991.98px) {
   .section-dropdown {
-    margin-left: 0.5rem;
     margin-top: 0.5rem;
+  }
+
+  .section-dropdown .section-dropdown-toggle {
+    width: 100%;
   }
 }
 

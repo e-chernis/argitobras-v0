@@ -194,7 +194,7 @@ es: &DEFAULT_ES
       - title: "SRE Admin / Ingeniero DevOps en Balanz Capital Valores"
         year: "Agosto 2019 - Julio 2021"
         desc: "Implementamos e integramos herramientas de automatización para la entrega continua de servicios y desarrollos, optimizando flujos de trabajo tanto para equipos de desarrollo como para áreas administrativas. Gestionamos la infraestructura sobre Linux, abarcando provisión, configuración, mantenimiento y monitoreo de servicios críticos."
-        image: assets/img/clients/balanz-card.png
+        image: assets/img/clients/balanz-timeline.png
         alt: Balanz Capital
       - title: "Analista de Sistemas IT / Ingeniero Jr. DevOps en MercadoLibre"
         year: "Septiembre 2017 - Enero 2019"
@@ -204,13 +204,13 @@ es: &DEFAULT_ES
       - title: "Analista de Sistemas IT en Grupo Assa"
         year: "Julio 2015 - Junio 2017"
         desc: "Inicié mi trayectoria como administrador de bases de datos en MS-SQL Server 2008 y 2012, asegurando la operatividad del cliente mediante la ejecución y optimización de consultas hasta la finalización del servicio. Posteriormente, me integré a un equipo de desarrollo, donde mi enfoque se trasladó a la automatización de procesos en entornos UNIX y Windows Server."
-        image: assets/img/clients/grupoassa-card.png
+        image: assets/img/clients/grupoassa-timeline.png
         alt: Grupo Assa
-      - title: "Desarrollador Java en CidicOM"
+      - title: "Desarrollador Java en Cidicom"
         year: "Febrero 2015 - Julio 2015"
         desc: "Lideré el desarrollo de un sistema de gestión de empleados para una empresa de remolcadores, diseñado para optimizar el control de accesos, asignación de turnos y administración de información clave sobre barcos y tripulaciones."
-        image: assets/img/clients/cidicom-card.png
-        alt: CidicOM
+        image: assets/img/portfolio/cidicom-logo.png
+        alt: Cidicom
     end: "¡Viaje Continuo <br> de Aprendizaje!"
 
   about:
