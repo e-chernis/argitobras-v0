@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="page-top">
+    {% assign t = site.data.sitetext[site.locale] %}
+    {% assign n = site.data.navigation[site.locale].nav %}
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ site.title }}</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            {% for item in n %}
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#{{ item.section }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">{{ t.header.title | markdownify }}</div>
+          <div class="intro-heading text-uppercase">{{ t.header.text | markdownify }}</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ t.header.buttonlink }}">{{ t.header.button }}</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-section" id="{{ t.about.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.about.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.about.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <div class="large text-muted">{{ t.about.body | markdownify }}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" id="{{ t.services.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.services.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.services.text }}</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          {% for service in t.services.list %}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+            <div class="text-muted">{{ service.desc | markdownify }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light page-section" id="{{ t.timeline.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.timeline.title | markdownify }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.timeline.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              {% for event in t.timeline.events %}
+              {% assign is_inverted = forloop.index0 | modulo: 2 %}
+              <li{% if is_inverted == 1 %} class="timeline-inverted"{% endif %}>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt }}">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>{{ event.year | markdownify }}</h4>
+                    <h4 class="subheading">{{ event.title }}</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <div class="text-muted">{{ event.desc | markdownify }}</div>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>{{ t.timeline.end }}</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" id="{{ t.education.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.education.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.education.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          {% for event in t.education.events %}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <img class="card-img-top" src="{{ event.image }}" alt="{{ event.alt }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ event.title }}</h5>
+                <p class="text-muted mb-2"><strong>{{ event.year }}</strong></p>
+                <p class="card-text mb-0">{{ event.desc }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="{{ t.clients.section }}">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Empresas para las cuales trabajé</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for client in t.clients.list %}
+          <div class="col-md-3 col-sm-6">
+            <a href="{{ client.url }}" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ t.clients.max-height }};">
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section" id="{{ t.contact.section }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ t.contact.title | markdownify }}</h2>
+            <h3 class="section-subheading text-muted">{{ t.contact.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" action="https://formspree.io/{{ site.email }}" novalidate="novalidate" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input name="name" class="form-control" id="name" type="text" placeholder="{{ t.contact.name }}" required="required" data-validation-required-message="{{ t.contact.name-validation }}">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group d-none">
+                    <input name="username" class="form-control" id="username" type="text" tabindex="-1" autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <input name="_replyto" class="form-control" id="email" type="email" placeholder="{{ t.contact.email }}" required="required" data-validation-required-message="{{ t.contact.email-validation }}">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input name="phone" class="form-control" id="phone" type="tel" placeholder="{{ t.contact.phone }}" required="required" data-validation-required-message="{{ t.contact.phone-validation }}">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea name="message" class="form-control" id="message" placeholder="{{ t.contact.message }}" required="required" data-validation-required-message="{{ t.contact.message-validation }}"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <input type="hidden" name="_subject" id="email-subject" value="{{ t.contact.subject }}">
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{ t.contact.submit }}</button>
+                </div>
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_next" value="#" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer" style="background-color: white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: '%Y' }}</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              {% for network in t.footer.social %}
+              <li class="list-inline-item">
+                <a href="{{ network.url }}"><i class="{{ network.icon }}"></i></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="{{ '/legal' | relative_url }}">{{ t.footer.legal }}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.easing.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jqBootstrapValidation.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/contact_me.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
+  </body>
+</html>
+
+
+

@@ -38,14 +38,14 @@ es: &DEFAULT_ES
   nav:
     - title: "Sobre Mí"
       section: nosotros
-    - title: "Experiencia"
-      section: cronologia
     - title: "Habilidades"
       section: servicios
-    - title: "Portafolio"
-      section: portafolio
+    - title: "Trayectoria"
+      section: cronologia
     - title: "Educación"
       section: education
+    - title: "Empresas"
+      section: clientes
     - title: "Contacto"
       section: contacto
 es-ES:
