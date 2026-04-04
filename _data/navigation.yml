@@ -42,14 +42,14 @@ es: &DEFAULT_ES
       section: servicios
     - title: "Trayectoria"
       section: cronologia
-    - title: "Educación"
-      section: education
     - title: "Experiencia laboral"
       section: portafolio
     - title: "Empresas en las que brindé servicios"
       section: clientes
     - title: "Referencias"
       section: equipo
+    - title: "Educación"
+      section: education
     - title: "Contacto"
       section: contacto
 es-ES:
