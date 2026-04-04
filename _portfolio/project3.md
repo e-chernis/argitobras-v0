@@ -1,15 +1,35 @@
 ---
 title: Todopago
-subtitle: Billetera virtual.
+subtitle: Billetera virtual con foco en confiabilidad y operación continua.
 image: assets/img/clients/todopago-card.png
 alt: Todopago
 
 caption:
   title: Todopago
-  subtitle: Billetera Virtual
+  subtitle: Billetera virtual
   thumbnail: assets/img/clients/todopago-card.png
 ---
-Trabajé en la plataforma Todopago, una billetera virtual para pagos electrónicos. Gestioné despliegues en EKS, configuré pipelines CI/CD con ArgoCD y optimicé bases de datos RDS para alta disponibilidad.
+## Contexto
+Trabajé en la plataforma Todopago, una billetera virtual para pagos electrónicos con requerimientos de disponibilidad y estabilidad en producción.
+
+## Objetivo
+Sostener una operación segura y escalable de la billetera, mejorando la velocidad y confiabilidad de los despliegues.
+
+## Mi aporte
+- Gestioné despliegues en **EKS** para entornos de producción.
+- Configuré pipelines **CI/CD** con **ArgoCD** para estandarizar releases.
+- Optimicé bases de datos **RDS** orientadas a alta disponibilidad.
+
+## Resultados
+- Mayor estabilidad operativa en despliegues de la plataforma.
+- Reducción de riesgo operativo por procesos de entrega más consistentes.
+- Base de datos más preparada para continuidad del servicio.
+
+## Stack aplicado
+- **EKS**, **ArgoCD**, **RDS**, prácticas DevOps para operación de pagos.
+
+## Casos de Éxito
+- Implementación sostenida en producción dentro del ecosistema de billetera virtual.
 
 {:.list-inline}
 - Fecha: Julio 2021 - Presente
