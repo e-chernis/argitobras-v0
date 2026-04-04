@@ -1,7 +1,6 @@
 #after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
 
-gem "jekyll-remote-theme"
 gem "sass-embedded", "= 1.69.5"
 
 group :jekyll_plugins do

@@ -11,8 +11,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#theme: jekyll-agency
-remote_theme: e-chernis/agency-jekyll-theme
+
 
 url    : "https://www.argitobras.com.ar" # Para tu dominio custom
 baseurl: "" # Sitio en la raíz del dominio
@@ -37,8 +36,7 @@ collections:
 markdown: kramdown
 
 
-plugins:
-  - jekyll-remote-theme
+plugins: []
 
 exclude:
   - Gemfile
