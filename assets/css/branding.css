@@ -123,6 +123,11 @@ header.masthead {
   overflow: hidden;
 }
 
+header.masthead.masthead--video {
+  background-image: none !important;
+  background-color: #0b1120;
+}
+
 header.masthead .container {
   position: relative;
   z-index: 2;
