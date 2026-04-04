@@ -3,6 +3,9 @@ title: Plataforma Cidicom
 subtitle: Desarrollo Java para gestión operativa.
 image: https://cidi.com.ar/template/assets/images/general/CIDICOM_Header.png
 alt: Cidicom
+success_links:
+  - title: "Cidicom"
+    url: "https://cidi.com.ar/"
 
 caption:
   title: Cidicom

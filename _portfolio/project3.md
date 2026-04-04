@@ -3,6 +3,9 @@ title: Todopago
 subtitle: Billetera virtual con foco en confiabilidad y operación continua.
 image: assets/img/clients/todopago-card.png
 alt: Todopago
+success_links:
+  - title: "Sitio oficial Todopago"
+    url: "https://www.prismamediosdepago.com/"
 
 caption:
   title: Todopago

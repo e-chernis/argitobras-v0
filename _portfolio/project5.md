@@ -3,6 +3,9 @@ title: Migración a la Nube en Balanz
 subtitle: Implementación de CI/CD y monitoreo para operación crítica.
 image: https://play-lh.googleusercontent.com/Msi21qkkkoo35j7P2o2_uxMhpUH4C1xub8sQA_4KJH32SNaWNdgwZmQ1rASYd2dGP-E
 alt: Migración Nube
+success_links:
+  - title: "Balanz Capital Valores"
+    url: "https://balanz.com/"
 
 caption:
   title: Cloud Migration

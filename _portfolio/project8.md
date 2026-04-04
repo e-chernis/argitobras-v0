@@ -3,6 +3,9 @@ title: Automatización Operativa en Grupo Assa
 subtitle: Soporte IT, bases de datos y procesos.
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5C0tV-xR-v6_EMqW2BP61UhscklLzRVGAQ&s
 alt: Grupo Assa
+success_links:
+  - title: "Grupo Assa"
+    url: "https://www.grupoassa.com/"
 
 caption:
   title: Grupo Assa

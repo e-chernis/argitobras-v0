@@ -3,6 +3,9 @@ title: Automatización en MercadoLibre
 subtitle: Soporte IT y scripting para operación eficiente.
 image: https://grupoact.com.ar/wp-content/uploads/2022/01/mercado-libre-logo.svg
 alt: Automatización
+success_links:
+  - title: "MercadoLibre Argentina"
+    url: "https://mercadolibre.com.ar/"
 
 caption:
   title: IT Support Automation

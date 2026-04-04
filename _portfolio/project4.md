@@ -3,6 +3,9 @@ title: BIMO
 subtitle: Billetera virtual con foco en seguridad y escalabilidad.
 image: assets/img/clients/bimo-card.png
 alt: BIMO
+success_links:
+  - title: "Sitio oficial BIMO"
+    url: "https://www.prismamediosdepago.com/"
 
 caption:
   title: BIMO
