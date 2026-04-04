@@ -456,11 +456,18 @@ input:focus, textarea:focus {
 }
 
 .aws-cert-meta {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.55rem;
-  margin-bottom: 0.55rem;
+  margin: 0.15rem 0 0.45rem;
+  vertical-align: middle;
+}
+
+.aws-cert-sep {
+  color: #94a3b8;
+  font-size: 0.72rem;
+  line-height: 1;
 }
 
 .aws-cert-badge {
@@ -495,7 +502,8 @@ input:focus, textarea:focus {
 }
 
 .aws-cert-id {
-  display: block;
+  display: inline-block;
+  margin-top: 0.25rem;
   color: #475569;
   font-size: 0.88rem;
   line-height: 1.45;
@@ -601,6 +609,10 @@ html[data-theme="dark"] .aws-cert-credly:hover {
 
 html[data-theme="dark"] .aws-cert-id {
   color: #cbd5e1;
+}
+
+html[data-theme="dark"] .aws-cert-sep {
+  color: #7c8ca3;
 }
 
 html[data-theme="dark"] .aws-cert-id strong {
