@@ -374,7 +374,7 @@ es: &DEFAULT_ES
         alt: Instituto Tecnológico Beltrán
       - title: "AWS DevOps Engineer Professional (DOP-C02)"
         year: "2023-2023"
-        desc: "AWS Training and Certification — <span class=\"text-success\"><i class=\"fas fa-check-circle mr-1\"></i>certificado</span> · Acreditación en [Credly](https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile). ID de la credencial: **X8V2P0310BE411GY**."
+        desc: "AWS Training and Certification — <span class=\"aws-cert-meta\"><span class=\"aws-cert-badge\"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i>Certificado</span><a class=\"aws-cert-credly\" href=\"https://www.credly.com/badges/3358eb20-01dd-47de-907d-8be070ac2696/linked_in_profile\" target=\"_blank\" rel=\"noopener noreferrer\">Acreditación Credly</a></span><span class=\"aws-cert-id\">ID de la credencial: <strong>X8V2P0310BE411GY</strong></span>"
         image: assets/img/education/aws-devops-pro.png
         alt: AWS DevOps Engineer Professional
       - title: "Diplomatura en Seguridad de la información"

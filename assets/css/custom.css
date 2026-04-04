@@ -455,6 +455,57 @@ input:focus, textarea:focus {
   min-width: 11rem;
 }
 
+.aws-cert-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.55rem;
+}
+
+.aws-cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.62rem;
+  border-radius: 999px;
+  background: rgba(22, 163, 74, 0.14);
+  color: #15803d;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.aws-cert-credly {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.62rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.aws-cert-credly:hover {
+  background: rgba(37, 99, 235, 0.16);
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.aws-cert-id {
+  display: block;
+  color: #475569;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.aws-cert-id strong {
+  color: #0f172a;
+  letter-spacing: 0.02em;
+}
+
 /* Dark theme overrides (default theme). Light theme remains the base styling. */
 html[data-theme="dark"] {
   color-scheme: dark;
@@ -531,6 +582,29 @@ html[data-theme="dark"] a {
 
 html[data-theme="dark"] .contact-card__copy {
   color: #cbd5e1;
+}
+
+html[data-theme="dark"] .aws-cert-badge {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+html[data-theme="dark"] .aws-cert-credly {
+  background: rgba(125, 211, 252, 0.16);
+  color: #bae6fd;
+}
+
+html[data-theme="dark"] .aws-cert-credly:hover {
+  background: rgba(125, 211, 252, 0.24);
+  color: #e0f2fe;
+}
+
+html[data-theme="dark"] .aws-cert-id {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .aws-cert-id strong {
+  color: #f8fafc;
 }
 
 html[data-theme="dark"] .portfolio-card__link:hover,
