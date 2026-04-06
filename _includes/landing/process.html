@@ -1,0 +1,17 @@
+{% assign section = include.section %}
+<section class="landing-block" id="{{ section.id }}" aria-labelledby="{{ section.id }}-title">
+  <h2 id="{{ section.id }}-title" class="landing-block__title">{{ section.title }}</h2>
+  {% if section.subtitle %}
+  <p class="landing-block__subtitle">{{ section.subtitle }}</p>
+  {% endif %}
+
+  <ol class="landing-process" aria-label="Proceso de trabajo">
+    {% for step in section.steps %}
+    <li class="landing-process__item">
+      <h3 class="landing-process__title">{{ step.title }}</h3>
+      <p class="landing-process__description">{{ step.description }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+

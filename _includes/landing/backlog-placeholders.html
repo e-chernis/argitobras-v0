@@ -1,0 +1,14 @@
+{% assign section = include.section %}
+<section class="landing-block landing-block--future" id="{{ section.id }}" aria-labelledby="{{ section.id }}-title">
+  <h2 id="{{ section.id }}-title" class="landing-block__title">{{ section.title }}</h2>
+  <p class="landing-block__subtitle">{{ section.subtitle }}</p>
+
+  <ul class="landing-future-list" aria-label="Funciones planificadas">
+    {% for item in section.items %}
+    <li>
+      <strong>{{ item.name }}</strong>: {{ item.status }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+

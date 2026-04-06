@@ -1,0 +1,20 @@
+{% assign landing = include.data %}
+{% assign section = include.section %}
+<section class="landing-block" id="{{ section.id }}" aria-labelledby="{{ section.id }}-title">
+  <h2 id="{{ section.id }}-title" class="landing-block__title">{{ section.title }}</h2>
+  {% if section.subtitle %}
+  <p class="landing-block__subtitle">{{ section.subtitle }}</p>
+  {% endif %}
+
+  <div class="landing-grid">
+    {% for item in section.items %}
+    <article class="landing-card">
+      <h3 class="landing-card__title">{{ item.title }}</h3>
+      {% if item.description %}
+      <p class="landing-card__description">{{ item.description }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+

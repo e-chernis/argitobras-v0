@@ -1,0 +1,22 @@
+{% assign landing = include.data %}
+<section class="landing-hero" aria-labelledby="landing-hero-title">
+  <p class="landing-hero__eyebrow">{{ landing.hero.eyebrow }}</p>
+  <h1 id="landing-hero-title" class="landing-hero__title">{{ landing.hero.title }}</h1>
+  <p class="landing-hero__subtitle">{{ landing.hero.subtitle }}</p>
+
+  {% if landing.hero.highlight %}
+  <p class="landing-hero__highlight">{{ landing.hero.highlight }}</p>
+  {% endif %}
+
+  <div class="landing-hero__actions" role="group" aria-label="Acciones principales">
+    <a class="btn btn-primary" href="{{ landing.hero.primary_cta.url | relative_url }}" aria-label="{{ landing.hero.primary_cta.aria_label }}">
+      {{ landing.hero.primary_cta.text }}
+    </a>
+    {% if landing.hero.secondary_cta %}
+    <a class="btn btn-outline-primary" href="{{ landing.hero.secondary_cta.url | relative_url }}" aria-label="{{ landing.hero.secondary_cta.aria_label }}">
+      {{ landing.hero.secondary_cta.text }}
+    </a>
+    {% endif %}
+  </div>
+</section>
+

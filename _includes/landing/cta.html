@@ -1,0 +1,14 @@
+{% assign section = include.section %}
+{% assign cta_id = section.id | default: include.id_base | default: 'landing-cta' %}
+<section class="landing-cta" id="{{ cta_id }}" aria-labelledby="{{ cta_id }}-title">
+  <h2 id="{{ cta_id }}-title" class="landing-cta__title">{{ section.title }}</h2>
+  <p class="landing-cta__text">{{ section.text }}</p>
+  <div class="landing-cta__actions" role="group" aria-label="Acciones de contacto">
+    {% for action in section.actions %}
+    <a class="btn {% if forloop.first %}btn-primary{% else %}btn-outline-primary{% endif %}" href="{{ action.url | relative_url }}" aria-label="{{ action.aria_label }}">
+      {{ action.text }}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+

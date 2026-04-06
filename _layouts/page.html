@@ -18,6 +18,9 @@
             {% for item in n %}
             <a class="dropdown-item js-scroll-trigger" href="{{ '/' | relative_url }}#{{ item.section }}">{{ item.title }}</a>
             {% endfor %}
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{{ '/cotitasdely/' | relative_url }}" aria-label="Ir a Cotitas Dely">Cotitas Dely</a>
+            <a class="dropdown-item" href="{{ '/semillasdebarro/' | relative_url }}" aria-label="Ir a Semillas de Barro">Semillas de Barro</a>
           </div>
         </div>
         <button class="btn btn-outline-light theme-toggle-button" type="button" data-theme-toggle aria-label="Cambiar tema">
